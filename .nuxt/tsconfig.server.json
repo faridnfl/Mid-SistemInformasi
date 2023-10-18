@@ -16,7 +16,7 @@
         "./types/nitro-imports"
       ],
       "#paths": [
-        "../node_modules/nuxt/dist/core/runtime/nitro/paths"
+        "../../node_modules/nuxt/dist/core/runtime/nitro/paths"
       ],
       "~": [
         "./.."
@@ -64,7 +64,7 @@
   ],
   "exclude": [
     "../node_modules",
-    "../node_modules/nuxt/node_modules",
+    "../../node_modules/nuxt/node_modules",
     "../dist"
   ]
 }
