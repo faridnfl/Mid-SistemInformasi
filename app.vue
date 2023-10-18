@@ -4,7 +4,7 @@
       <img src="/unhas_id.png" alt="logo" style="height: 35px; width: 250px;" />
     </div>
     <div class="header-dropdown"  >
-        <p style="font-family: Roboto;  color: white; font-size: 16px; float: left; margin-left: 10px;">POFIL</p>
+        <p style="font-family: Roboto;  color: white; font-size: 16px; float: left; margin-left: 10px;">PORFIL</p>
         <p style="font-family: Roboto; color: white; font-size: 16px; float: left; margin-left: 10px;">AKADEMIK</p>
         <p style="font-family: Roboto; color: white; font-size: 16px; float: left; margin-left: 10px;">SUMBER DAYA</p>
         <p style="font-family: Roboto; color: white; font-size: 16px; float: left; margin-left: 10px;">KEMAHASISWAAN</p>
