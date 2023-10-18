@@ -182,6 +182,7 @@
 <style scoped>
 header {
   position: fixed;
+  width: 100%;
 }
 .header-logo {
   float: left;
@@ -197,19 +198,21 @@ header {
 
 .header-language {
   width: 120px;
-  float: left;
+  float: right;
   margin: 15px 10px;
 }
 .judul {
-  min-height: 50vh;
+  min-height: 100vh;
   /* padding-bottom: 5rem; */
+  display: flex;
   align-items: center;
-  background-image: url("bg-judul.jpg");
+  place-content: center;
+  background-color: black;
+  background-image: url("bg-judul.png");
   background-size: cover;
   background-position: center;
 }
 .judul h1 {
-  padding: 12rem 0 0 0;
   text-align: center;
   color: white;
   font-size: 2rem;
