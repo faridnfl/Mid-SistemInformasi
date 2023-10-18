@@ -15,7 +15,7 @@
           margin-left: 10px;
         "
       >
-        POFIL
+        PROFIL
       </p>
       <p
         style="
@@ -150,11 +150,11 @@
   </header>
 
   <body>
-    <div class="judul">
+    <section class="judul">
       <h1>SELAMAT DATANG DI FAKULTAS TEKNIK UNIVERSITAS HASANUDDIN</h1>
-    </div>
+    </section>
     <div class="sambutan">
-      <img src="/dekan.png" alt="Dekan FT-UH" style="width: 250px;"/>
+      <img src="/dekan.png" alt="Dekan FT-UH" style="width: 250px; border-radius: 25px;"/>
       <div class="ucapan">
         <h1>SAMBUTAN DEKAN</h1>
         <p>
@@ -180,13 +180,16 @@
 </template>
 
 <style scoped>
+header {
+  position: fixed;
+}
 .header-logo {
   float: left;
   margin-top: 7px;
 }
 
 .header-dropdown {
-  width: 930px;
+  width: 1089px;
   float: left;
   margin-top: 17px;
   margin-left: 10px;
@@ -198,15 +201,18 @@
   margin: 15px 10px;
 }
 .judul {
-  background-repeat: no-repeat;
+  min-height: 50vh;
+  /* padding-bottom: 5rem; */
+  align-items: center;
+  background-image: url("bg-judul.jpg");
   background-size: cover;
   background-position: center;
 }
 .judul h1 {
-  padding: 1.5rem;
+  padding: 12rem 0 0 0;
   text-align: center;
-  color: black;
-  font-size: 1.5rem;
+  color: white;
+  font-size: 2rem;
   font-weight: 500;
 }
 
