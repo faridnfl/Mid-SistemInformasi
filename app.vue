@@ -1,151 +1,119 @@
 <template>
-  <header
-    style="background-color: rgb(19, 58, 98); padding: 15px 15px; height: 90px"
-  >
+  <header style="background-color: rgb(19, 58, 98); padding: 15px 15px; height: 90px">
     <div class="header-logo">
       <img src="/unhas_id.png" alt="logo" style="height: 35px; width: 250px" />
     </div>
     <div class="header-dropdown">
-      <p
-        style="
+      <p style="
           font-family: Roboto;
           color: white;
           font-size: 16px;
           float: left;
           margin-left: 10px;
-        "
-      >
+        ">
         PROFIL
       </p>
-      <p
-        style="
+      <p style="
           font-family: Roboto;
           color: white;
           font-size: 16px;
           float: left;
           margin-left: 10px;
-        "
-      >
+        ">
         AKADEMIK
       </p>
-      <p
-        style="
+      <p style="
           font-family: Roboto;
           color: white;
           font-size: 16px;
           float: left;
           margin-left: 10px;
-        "
-      >
+        ">
         SUMBER DAYA
       </p>
-      <p
-        style="
+      <p style="
           font-family: Roboto;
           color: white;
           font-size: 16px;
           float: left;
           margin-left: 10px;
-        "
-      >
+        ">
         KEMAHASISWAAN
       </p>
-      <p
-        style="
+      <p style="
           font-family: Roboto;
           color: white;
           font-size: 16px;
           float: left;
           margin-left: 10px;
-        "
-      >
+        ">
         RISET DAN INOVASI
       </p>
-      <p
-        style="
+      <p style="
           font-family: Roboto;
           color: white;
           font-size: 16px;
           float: left;
           margin-left: 10px;
-        "
-      >
+        ">
         KEMITRAAN
       </p>
-      <p
-        style="
+      <p style="
           font-family: Roboto;
           color: white;
           font-size: 16px;
           float: left;
           margin-left: 10px;
-        "
-      >
+        ">
         GPM-PR
       </p>
-      <p
-        style="
+      <p style="
           font-family: Roboto;
           color: white;
           font-size: 16px;
           float: left;
           margin-left: 10px;
-        "
-      >
+        ">
         COT
       </p>
-      <p
-        style="
+      <p style="
           font-family: Roboto;
           color: white;
           font-size: 16px;
           float: left;
           margin-left: 10px;
-        "
-      >
+        ">
         DHARMA WANITA
       </p>
     </div>
     <div class="header-language">
-      <p
-        style="
+      <p style="
           font-family: Roboto;
           color: white;
           float: left;
           margin-top: 4px;
           font-size: 12px;
-        "
-      >
+        ">
         INA
       </p>
-      <img
-        src="/indonesia-flag.png"
-        alt="indo"
-        style="float: left; width: 25px; height: 25px; margin-left: 5px"
-      />
-      <p
-        style="
+      <img src="/indonesia-flag.png" alt="indo" style="float: left; width: 25px; height: 25px; margin-left: 5px" />
+      <p style="
           font-family: Roboto;
           color: white;
           float: left;
           margin-top: 4px;
           margin-left: 10px;
           font-size: 12px;
-        "
-      >
+        ">
         ENG
       </p>
-      <img
-        src="/english.png"
-        alt="english"
-        style="
+      <img src="/english.png" alt="english" style="
           float: left;
           width: 25px;
           height: 15px;
           margin-top: 4px;
           margin-left: 5px;
-        "
-      />
+        " />
     </div>
   </header>
 
@@ -154,7 +122,7 @@
       <h1>SELAMAT DATANG DI FAKULTAS TEKNIK UNIVERSITAS HASANUDDIN</h1>
     </section>
     <div class="sambutan">
-      <img src="/dekan.png" alt="Dekan FT-UH" style="width: 250px; border-radius: 25px;"/>
+      <img src="/dekan.png" alt="Dekan FT-UH" style="width: 250px; border-radius: 25px;" />
       <div class="ucapan">
         <h1>SAMBUTAN DEKAN</h1>
         <p>
@@ -176,13 +144,52 @@
         <h2>Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN Eng.</h2>
       </div>
     </div>
+    <section class="galeri flex justify-center relative h-48">
+      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden min-h-full">
+        <h1 class="text-2xl font-bold py-5 text-center">Disini Galeri</h1>
+      </div>
+    </section>
+    <section class="dharma-wanita warna flex justify-center bg-orange-400">
+      <div class="content max-w-screen-xl w-full">
+        <h1 class="text-2xl font-bold py-5 text-center">Disini Dharma Wanita</h1>
+      </div>
+    </section>
+    <section class="berita flex justify-center relative h-48">
+      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden h-full">
+        <h1 class="text-2xl font-bold py-5 text-center">Disini Berita</h1>
+      </div>
+    </section>
+    <section class="informasi flex justify-center bg-orange-400" >
+      <div class="content max-w-screen-xl w-full ">
+        <h1 class="text-2xl font-bold py-5 text-center">Disini Informasi</h1>
+      </div>
+    </section>
+    <section class="map flex justify-center">
+      <div class="content max-w-screen-xl w-full bg-white">
+        <h1 class="text-2xl font-bold py-5 text-center">Disini Site Map</h1>
+      </div>
+    </section>
+    
   </body>
 </template>
 
 <style scoped>
+body {
+  background-color: #e8e4e4;
+}
+
 header {
   position: fixed;
   width: 100%;
+  z-index: 10;
+}
+
+.warna{
+  padding-bottom: 6rem;
+}
+.offside{
+  position: absolute;
+  top: -70px;
 }
 .header-logo {
   float: left;
@@ -201,6 +208,7 @@ header {
   float: right;
   margin: 15px 10px;
 }
+
 .judul {
   min-height: 100vh;
   /* padding-bottom: 5rem; */
@@ -212,6 +220,7 @@ header {
   background-size: cover;
   background-position: center;
 }
+
 .judul h1 {
   text-align: center;
   color: white;
@@ -222,25 +231,28 @@ header {
 .sambutan {
   background-color: coral;
   display: flex;
-  
   padding: 2rem 15%;
+  padding-bottom: 6rem;
 }
+
 .sambutan .ucapan {
   padding-left: 2.5rem;
   color: white;
 }
+
 .ucapan h1 {
   font-size: 25px;
   font-weight: 700;
   padding-bottom: 10px;
 }
+
 .ucapan p {
   font-size: 15px;
   padding-bottom: 10px;
 }
+
 .ucapan h2 {
   font-size: 23px;
   font-weight: 700;
 }
-
 </style>
