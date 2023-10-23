@@ -118,14 +118,14 @@
   </header>
 
   <body>
-    <section class="judul">
-      <h1>SELAMAT DATANG DI FAKULTAS TEKNIK UNIVERSITAS HASANUDDIN</h1>
+    <section class="judul min-h-screen flex items-center place-content-center bg-cover bg-center">
+      <h1 class="text-center text-white font-medium" style="font-size: 2rem;">SELAMAT DATANG DI FAKULTAS TEKNIK UNIVERSITAS HASANUDDIN</h1>
     </section>
-    <div class="sambutan">
+    <div class="sambutan bg-orange-400 flex" style="padding: 2rem 15% 6.5rem 15%;">
       <img src="/dekan.png" alt="Dekan FT-UH" style="width: 250px; border-radius: 25px;" />
-      <div class="ucapan">
-        <h1>SAMBUTAN DEKAN</h1>
-        <p>
+      <div class="ucapan pl-8 text-white">
+        <h1 class="text-2xl font-bold py-2.5">SAMBUTAN DEKAN</h1>
+        <p class="text-base py-2.5">
           Assalamu Alaikum Wr. Wb. Puji syukur kehadirat Tuhan Yang Maha Kuasa
           atas limpahan rahmat dan hidayah-Nya sehingga informasi tentang
           Fakultas Teknik Unhas melalui situs web ini dapat terwujud. Besar
@@ -140,13 +140,13 @@
           Teknik kepada semua lapisan masyarakat. Selamat Datang di Fakultas
           Teknik Universitas Hasanuddin.
         </p>
-        <p>Wassalam.</p>
-        <h2>Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN Eng.</h2>
+        <p class="text-base">Wassalam.</p>
+        <h2 class="font-bold text-2xl">Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN Eng.</h2>
       </div>
     </div>
     <section class="galeri flex justify-center relative h-48">
       <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden min-h-full">
-        <h1 class="text-2xl font-bold py-5 text-center">Disini Galeri</h1>
+        <h1 class="text-2xl font-bold py-5 text-center">Galeri</h1>
       </div>
     </section>
     <section class="dharma-wanita warna flex justify-center bg-orange-400">
@@ -210,49 +210,6 @@ header {
 }
 
 .judul {
-  min-height: 100vh;
-  /* padding-bottom: 5rem; */
-  display: flex;
-  align-items: center;
-  place-content: center;
-  background-color: black;
   background-image: url("bg-judul.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.judul h1 {
-  text-align: center;
-  color: white;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.sambutan {
-  background-color: coral;
-  display: flex;
-  padding: 2rem 15%;
-  padding-bottom: 6rem;
-}
-
-.sambutan .ucapan {
-  padding-left: 2.5rem;
-  color: white;
-}
-
-.ucapan h1 {
-  font-size: 25px;
-  font-weight: 700;
-  padding-bottom: 10px;
-}
-
-.ucapan p {
-  font-size: 15px;
-  padding-bottom: 10px;
-}
-
-.ucapan h2 {
-  font-size: 23px;
-  font-weight: 700;
 }
 </style>

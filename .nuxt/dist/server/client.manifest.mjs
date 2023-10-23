@@ -1,1 +1,1 @@
-export { default } from "file:///Users/rifqimaulana/Documents/Colleges/SISFOR/Tugas_MID_SISFOR/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///D:/KULIAH/5.%20SEMESTER%205/Sistem%20Informasi/Tugas_MID_SISFOR/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
