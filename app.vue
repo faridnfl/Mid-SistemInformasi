@@ -149,9 +149,20 @@
         <h1 class="text-2xl font-bold py-5 text-center">Galeri</h1>
       </div>
     </section>
-    <section class="dharma-wanita warna flex justify-center bg-orange-400">
-      <div class="content max-w-screen-xl w-full">
-        <h1 class="text-2xl font-bold py-5 text-center">Disini Dharma Wanita</h1>
+    <section class="dharma-wanita warna justify-center bg-orange-400 px-40">
+      <div class="content w-full">
+        <h1 class="text-2xl font-bold py-5 text-center text-white">DHARMA WANITA</h1>
+      </div>
+      <div class="flex gap-8">
+        <img src="/dharma-wanita.png" alt="Dharma Wanita" class="rounded-2xl" style="height: 250px;"> 
+        <p class="text-white text-lg font-medium pt-20">
+          Dharma Wanita Persatuan Fakultas Teknik Unhas yang diketuai oleh Ny. Muralia Isran Ramli, 
+          aktif melakukan berbagai macam kegiatan seperti amaliah ramadhan, 
+          arisan di kapal, kegiatan BKMT dan DPW Unhas.
+        </p>
+      </div>
+      <div class="grid justify-items-end">
+        <button style="background-color: rgb(19, 58, 98); color: white;">SELENGKAPNYA</button>
       </div>
     </section>
     <section class="berita flex justify-center relative h-48">
@@ -211,5 +222,10 @@ header {
 
 .judul {
   background-image: url("bg-judul.png");
+}
+
+.dharma-wanita button {
+  padding: 0.8rem 2.5rem;
+  border-radius: 10px;
 }
 </style>
