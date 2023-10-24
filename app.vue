@@ -22,8 +22,21 @@
 
 <div>
   <!-- Header Kedua -->
-  <header class="p-4 h-10 flex items-center justify-center" style="background-color:  rgb(23, 38, 86);">
-    
+  <header class="p-4 h-10 flex items-center" style="background-color:  rgb(16, 27, 60);">
+    <div class="tulisan text-white flex w-full mr-22 ">
+    </div>
+    <div class="flex text-white space-x-4  justify-center items-center " style="width: 450px;">
+      <div class="flex space-x-4 ">
+        <p>SITEMAP</p>
+        <p>QUICK SITE</p>
+      </div>
+      <div class="flex space-x-2 items-center ">
+        <p class="text-white text-2sm">INA</p>
+        <img src="/indonesia-flag.png" alt="indo" class="w-8 h-8" />
+        <p class="text-white text-2sm ">ENG</p>
+        <img src="/english.png" alt="english" class=" w-8 h-5" />
+      </div>
+    </div>
   </header>
 </div>
 
