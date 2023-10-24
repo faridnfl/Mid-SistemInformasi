@@ -1,131 +1,40 @@
 <template>
-  <header style="background-color: rgb(19, 58, 98); padding: 15px 15px; height: 90px">
-    <div class="header-logo">
-      <img src="/unhas_id.png" alt="logo" style="height: 35px; width: 250px" />
-    </div>
-    <div class="header-dropdown">
-      <p style="
-          font-family: Roboto;
-          color: white;
-          font-size: 16px;
-          float: left;
-          margin-left: 10px;
-        ">
-        PROFIL
-      </p>
-      <p style="
-          font-family: Roboto;
-          color: white;
-          font-size: 16px;
-          float: left;
-          margin-left: 10px;
-        ">
-        AKADEMIK
-      </p>
-      <p style="
-          font-family: Roboto;
-          color: white;
-          font-size: 16px;
-          float: left;
-          margin-left: 10px;
-        ">
-        SUMBER DAYA
-      </p>
-      <p style="
-          font-family: Roboto;
-          color: white;
-          font-size: 16px;
-          float: left;
-          margin-left: 10px;
-        ">
-        KEMAHASISWAAN
-      </p>
-      <p style="
-          font-family: Roboto;
-          color: white;
-          font-size: 16px;
-          float: left;
-          margin-left: 10px;
-        ">
-        RISET DAN INOVASI
-      </p>
-      <p style="
-          font-family: Roboto;
-          color: white;
-          font-size: 16px;
-          float: left;
-          margin-left: 10px;
-        ">
-        KEMITRAAN
-      </p>
-      <p style="
-          font-family: Roboto;
-          color: white;
-          font-size: 16px;
-          float: left;
-          margin-left: 10px;
-        ">
-        GPM-PR
-      </p>
-      <p style="
-          font-family: Roboto;
-          color: white;
-          font-size: 16px;
-          float: left;
-          margin-left: 10px;
-        ">
-        COT
-      </p>
-      <p style="
-          font-family: Roboto;
-          color: white;
-          font-size: 16px;
-          float: left;
-          margin-left: 10px;
-        ">
-        DHARMA WANITA
-      </p>
-    </div>
-    <div class="header-language">
-      <p style="
-          font-family: Roboto;
-          color: white;
-          float: left;
-          margin-top: 4px;
-          font-size: 12px;
-        ">
-        INA
-      </p>
-      <img src="/indonesia-flag.png" alt="indo" style="float: left; width: 25px; height: 25px; margin-left: 5px" />
-      <p style="
-          font-family: Roboto;
-          color: white;
-          float: left;
-          margin-top: 4px;
-          margin-left: 10px;
-          font-size: 12px;
-        ">
-        ENG
-      </p>
-      <img src="/english.png" alt="english" style="
-          float: left;
-          width: 25px;
-          height: 15px;
-          margin-top: 4px;
-          margin-left: 5px;
-        " />
+<div>
+  <header class="p-4 h-24 flex items-center justify-between" style="margin-top: 40px; background-color: rgb(26, 44, 98);">
+    <div class="flex items-center">
+      <img src="/unhas_id.png" alt="logo" class="h-14 w-100 flex" />
+      <div class="space-x-6 p-8 text-white text-xl flex whitespace-nowrap">
+        <p>PROFIL</p>
+        <p>AKADEMIK</p>
+        <p>SUMBER DAYA</p>
+        <p>KEMAHASISWAAN</p>
+        <p>RISET DAN INOVASI</p>
+        <p>KEMITRAAN</p>
+        <p>GPM-PR</p>
+        <p>COT</p>
+        <p>DHARMA WANITA</p>
+      </div>
     </div>
   </header>
+</div>
+
+<div>
+  <!-- Header Kedua -->
+  <header class="p-4 h-10 flex items-center justify-center" style="background-color:  rgb(23, 38, 86);">
+    
+  </header>
+</div>
+
 
   <body>
     <section class="judul min-h-screen flex items-center place-content-center bg-cover bg-center">
-      <h1 class="text-center text-white font-medium" style="font-size: 2rem;">SELAMAT DATANG DI FAKULTAS TEKNIK UNIVERSITAS HASANUDDIN</h1>
+      <h1 class="h-12 text-center text-white font-medium flex" style="font-size: 2.5rem; text-shadow: 8px 6px 4px rgba(0, 0, 0, 20);">SELAMAT DATANG DI FAKULTAS <br> TEKNIK UNIVERSITAS HASANUDDIN</h1>
     </section>
-    <div class="sambutan bg-orange-400 flex" style="padding: 2rem 15% 6.5rem 15%;">
-      <img src="/dekan.png" alt="Dekan FT-UH" style="width: 250px; border-radius: 25px;" />
+    <div class="sambutan flex pt-20 pb-20"  style="background-color:  rgb(26, 46, 107);">
+      <img src="/dekan.png" alt="Dekan FT-UH" class="flex ml-52 mb-14 max-w-full h-auto" style="height: 450px;" />
       <div class="ucapan pl-8 text-white">
-        <h1 class="text-2xl font-bold py-2.5">SAMBUTAN DEKAN</h1>
-        <p class="text-base py-2.5">
+        <h1 class="text-3xl font-bold ">SAMBUTAN DEKAN</h1>
+        <p class="mt-6 text-justify mr-52" style="font-size: 20px;">
           Assalamu Alaikum Wr. Wb. Puji syukur kehadirat Tuhan Yang Maha Kuasa
           atas limpahan rahmat dan hidayah-Nya sehingga informasi tentang
           Fakultas Teknik Unhas melalui situs web ini dapat terwujud. Besar
@@ -140,7 +49,7 @@
           Teknik kepada semua lapisan masyarakat. Selamat Datang di Fakultas
           Teknik Universitas Hasanuddin.
         </p>
-        <p class="text-base">Wassalam.</p>
+        <p class="mt-6" style="font-size: 22px;">Wassalam.</p>
         <h2 class="font-bold text-2xl">Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN Eng.</h2>
       </div>
     </div>
