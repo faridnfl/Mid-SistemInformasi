@@ -1,18 +1,20 @@
 <template>
 <div>
-  <header class="p-4 h-24 flex items-center justify-between" style="margin-top: 40px; background-color: rgb(26, 44, 98);">
-    <div class="flex items-center">
-      <img src="/unhas_id.png" alt="logo" class="h-12 w-64 flex" />
-      <div class="navbar space-x-6 p-8 text-white text-xl flex whitespace-nowrap">
-        <a href="">PROFIL</a>
-        <a href="">AKADEMIK</a>
-        <a href="">SUMBER DAYA</a>
-        <a href="">KEMAHASISWAAN</a>
-        <a href="">RISET DAN INOVASI</a>
-        <a href="">KEMITRAAN</a>
-        <a href="">GPM-PR</a>
-        <a href="">COT</a>
-        <a href="">DHARMA WANITA</a>
+  <header class=" h-28 flex items-center justify-between" style="margin-top: 40px; background-color: rgb(26, 44, 98);">
+    <div class="flex items-center mx-auto  " style="width: 98%;">
+      <div class=" flex w-full " style="width: 600px;">
+        <img src="/unhas_id.png" alt="logo" class="h-16  w-full" />
+      </div>
+      <div class="navbar space-x-6  ml-4 mt-2 text-white text-xl w-full flex whitespace-nowrap">
+        <div class ="w-full "><a href="">PROFIL</a></div>
+        <div class ="w-full "><a href="">AKADEMIK</a></div>
+        <div class ="w-full "><a href="">SUMBER DAYA</a></div>
+        <div class ="w-full "><a href="">KEMAHASISWAAN</a></div>
+        <div class ="w-full "><a href="">RISET DAN INOVASI</a></div>
+        <div class ="w-full "><a href="">KEMITRAAN</a></div>
+        <div class ="w-full "><a href="">GPM-PR</a></div>
+        <div class ="w-full "><a href="">COT</a></div>
+        <div class ="w-full "><a href="">DHARMA WANITA</a></div>
       </div>
     </div>
   </header>
@@ -30,7 +32,7 @@
     <section class="judul min-h-screen flex items-center place-content-center bg-cover bg-center">
       <h1 class="h-12 text-center text-white font-medium flex" style="font-size: 2.5rem; text-shadow: 8px 6px 4px rgba(0, 0, 0, 20);">SELAMAT DATANG DI FAKULTAS <br> TEKNIK UNIVERSITAS HASANUDDIN</h1>
     </section>
-    <div class="sambutan flex pt-20 pb-20 mb-8"  style="background-color:  rgb(26, 46, 107);">
+     <div class="sambutan flex pt-20 pb-20 mb-8"  style="background-color:  rgb(26, 46, 107);">
       <div class="flex  mx-auto" style="width: 1270px;">
         <div class="foto flex  " style="width: 550px;">
           <img src="/dekan.png" alt="Dekan FT-UH" class=" rounded-3xl flex max-w-full h-full" style="height: 450px;" />
