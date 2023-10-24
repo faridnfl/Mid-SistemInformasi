@@ -30,11 +30,14 @@
     <section class="judul min-h-screen flex items-center place-content-center bg-cover bg-center">
       <h1 class="h-12 text-center text-white font-medium flex" style="font-size: 2.5rem; text-shadow: 8px 6px 4px rgba(0, 0, 0, 20);">SELAMAT DATANG DI FAKULTAS <br> TEKNIK UNIVERSITAS HASANUDDIN</h1>
     </section>
-    <div class="sambutan flex pt-20 pb-20"  style="background-color:  rgb(26, 46, 107);">
-      <img src="/dekan.png" alt="Dekan FT-UH" class="flex ml-52 mb-14 max-w-full h-auto" style="height: 450px;" />
-      <div class="ucapan pl-8 text-white">
+    <div class="sambutan flex pt-20 pb-20 mb-8"  style="background-color:  rgb(26, 46, 107);">
+      <div class="flex  mx-auto" style="width: 1270px;">
+        <div class="foto flex  " style="width: 550px;">
+          <img src="/dekan.png" alt="Dekan FT-UH" class=" rounded-3xl flex max-w-full h-full" style="height: 450px;" />
+        </div>
+      <div class="ucapan ml-10 text-white  w-full">
         <h1 class="text-3xl font-bold ">SAMBUTAN DEKAN</h1>
-        <p class="mt-6 text-justify mr-52" style="font-size: 20px;">
+        <p class="mt-6 text-justify " style="font-size: 20px;">
           Assalamu Alaikum Wr. Wb. Puji syukur kehadirat Tuhan Yang Maha Kuasa
           atas limpahan rahmat dan hidayah-Nya sehingga informasi tentang
           Fakultas Teknik Unhas melalui situs web ini dapat terwujud. Besar
@@ -51,6 +54,7 @@
         </p>
         <p class="mt-6" style="font-size: 22px;">Wassalam.</p>
         <h2 class="font-bold text-2xl">Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN Eng.</h2>
+      </div>
       </div>
     </div>
     <section class="galeri flex justify-center relative h-48">
