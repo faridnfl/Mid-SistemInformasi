@@ -1,6 +1,6 @@
 
 import { updateAppConfig } from '#app'
-import { defuFn } from 'D:/Kuliah/Semester 5/Tugas/Sistem Informasi/Tugas_MID_SISFOR/node_modules/defu/dist/defu.mjs'
+import { defuFn } from 'D:/KULIAH/5. SEMESTER 5/Sistem Informasi/Tugas_MID_SISFOR/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {
   "nuxt": {}

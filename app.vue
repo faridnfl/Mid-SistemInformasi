@@ -2,17 +2,17 @@
 <div>
   <header class="p-4 h-24 flex items-center justify-between" style="margin-top: 40px; background-color: rgb(26, 44, 98);">
     <div class="flex items-center">
-      <img src="/unhas_id.png" alt="logo" class="h-14 w-100 flex" />
-      <div class="space-x-6 p-8 text-white text-xl flex whitespace-nowrap">
-        <p>PROFIL</p>
-        <p>AKADEMIK</p>
-        <p>SUMBER DAYA</p>
-        <p>KEMAHASISWAAN</p>
-        <p>RISET DAN INOVASI</p>
-        <p>KEMITRAAN</p>
-        <p>GPM-PR</p>
-        <p>COT</p>
-        <p>DHARMA WANITA</p>
+      <img src="/unhas_id.png" alt="logo" class="h-12 w-64 flex" />
+      <div class="navbar space-x-6 p-8 text-white text-xl flex whitespace-nowrap">
+        <a href="">PROFIL</a>
+        <a href="">AKADEMIK</a>
+        <a href="">SUMBER DAYA</a>
+        <a href="">KEMAHASISWAAN</a>
+        <a href="">RISET DAN INOVASI</a>
+        <a href="">KEMITRAAN</a>
+        <a href="">GPM-PR</a>
+        <a href="">COT</a>
+        <a href="">DHARMA WANITA</a>
       </div>
     </div>
   </header>
@@ -102,6 +102,10 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
+}
+
+header .navbar a:hover{
+  color: red;
 }
 
 .warna{
