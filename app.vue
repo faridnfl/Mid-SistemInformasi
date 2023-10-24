@@ -5,7 +5,7 @@
       <div class=" flex w-full " style="width: 600px;">
         <img src="/unhas_id.png" alt="logo" class="h-16  w-full" />
       </div>
-      <div class="navbar space-x-6  ml-4 mt-2 text-white text-xl w-full flex whitespace-nowrap">
+      <div class="navbar space-x-6  ml-4 mt-2 text-white text-xl w-full flex whitespace-nowrap" style="font-family: Oswald; font-size: 19px;">
         <div class ="w-full "><a href="">PROFIL</a></div>
         <div class ="w-full "><a href="">AKADEMIK</a></div>
         <div class ="w-full "><a href="">SUMBER DAYA</a></div>
@@ -43,7 +43,7 @@
 
   <body>
     <section class="judul min-h-screen flex items-center place-content-center bg-cover bg-center">
-      <h1 class="h-12 text-center text-white font-medium flex" style="font-size: 2.5rem; text-shadow: 8px 6px 4px rgba(0, 0, 0, 20);">SELAMAT DATANG DI FAKULTAS <br> TEKNIK UNIVERSITAS HASANUDDIN</h1>
+      <h1 class="h-12 text-center text-white font-medium flex" style="font-family: Oswald; font-size: 2.5rem; text-shadow: 8px 6px 4px rgba(0, 0, 0, 20);">SELAMAT DATANG DI FAKULTAS <br> TEKNIK UNIVERSITAS HASANUDDIN</h1>
     </section>
      <div class="sambutan flex pt-20 pb-20 mb-8"  style="background-color:  rgb(26, 46, 107);">
       <div class="flex  mx-auto" style="width: 1270px;">
@@ -51,8 +51,8 @@
           <img src="/dekan.png" alt="Dekan FT-UH" class=" rounded-3xl flex max-w-full h-full" style="height: 450px;" />
         </div>
       <div class="ucapan ml-10 text-white  w-full">
-        <h1 class="text-3xl font-bold ">SAMBUTAN DEKAN</h1>
-        <p class="mt-6 text-justify " style="font-size: 20px;">
+        <h1 class="text-3xl font-bold font-Oswald" style="font-family: Oswald;">SAMBUTAN DEKAN</h1>
+        <p class="mt-6 text-justify " style="font-size: 20px; opacity: 0.8; font-family: Roboto;">
           Assalamu Alaikum Wr. Wb. Puji syukur kehadirat Tuhan Yang Maha Kuasa
           atas limpahan rahmat dan hidayah-Nya sehingga informasi tentang
           Fakultas Teknik Unhas melalui situs web ini dapat terwujud. Besar
@@ -67,17 +67,17 @@
           Teknik kepada semua lapisan masyarakat. Selamat Datang di Fakultas
           Teknik Universitas Hasanuddin.
         </p>
-        <p class="mt-6" style="font-size: 22px;">Wassalam.</p>
-        <h2 class="font-bold text-2xl">Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN Eng.</h2>
+        <p class="mt-6 font-Roboto" style="opacity: 0.8; font-size: 20px; font-family: Roboto;">Wassalam.</p>
+        <h2 class="font-bold text-2xl font-oswald" style="font-family: Oswald; font-size: 27px;">Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN Eng.</h2>
       </div>
       </div>
     </div>
-    <section class="galeri flex justify-center relative h-48">
-      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden min-h-full">
-        <h1 class="text-2xl font-bold py-5 text-center">Galeri</h1>
+    <section class="galeri flex justify-center relative " style="height: 600px;">
+      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden " style="height: 670px;">
+        <h1 class=" font-bold py-5 text-center" style="font-family: Merriweather; font-size: 40px;">Galeri</h1>
       </div>
     </section>
-    <section class="dharma-wanita warna justify-center bg-orange-400 px-40">
+    <section class="dharma-wanita warna justify-center bg-orange-400 px-40 ">
       <div class="content w-full">
         <h1 class="text-2xl font-bold py-5 text-center text-white">DHARMA WANITA</h1>
       </div>
@@ -93,8 +93,8 @@
         <button style="background-color: rgb(19, 58, 98); color: white;">SELENGKAPNYA</button>
       </div>
     </section>
-    <section class="berita flex justify-center relative h-48">
-      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden h-full">
+    <section class="berita flex justify-center relative" style="height: 600px;">
+      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden" style="height: 670px;">
         <h1 class="text-2xl font-bold py-5 text-center">Disini Berita</h1>
       </div>
     </section>
@@ -103,7 +103,7 @@
         <h1 class="text-2xl font-bold py-5 text-center">Disini Informasi</h1>
       </div>
     </section>
-    <section class="map flex justify-center">
+    <section class="map flex justify-center" style="height: 700px;">
       <div class="content max-w-screen-xl w-full bg-white">
         <h1 class="text-2xl font-bold py-5 text-center">Disini Site Map</h1>
       </div>
