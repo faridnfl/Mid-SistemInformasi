@@ -16,7 +16,7 @@
         <div class ="w-full "><a href="">COT</a></div>
         <div class ="w-full "><a href="">DHARMA WANITA</a></div>
       </div>
-    </div>np
+    </div>
   </header>
 </div>
 
@@ -44,7 +44,7 @@
     <section class="judul min-h-screen flex items-center place-content-center bg-cover bg-center">
       <h1 class="h-12 text-center text-white font-medium flex" style="font-family: Oswald; font-size: 2.5rem; text-shadow: 8px 6px 4px rgba(0, 0, 0, 20);">SELAMAT DATANG DI FAKULTAS <br> TEKNIK UNIVERSITAS HASANUDDIN</h1>
     </section>
-     <div class="sambutan flex pt-20 pb-20 mb-8"  style="background-color:  rgb(26, 46, 107);">
+     <div class="sambutan flex pt-20 pb-20 mb-8"  style="background-color:  rgb(26, 46, 107); min-height: 650px;">
       <div class="flex  mx-auto" style="width: 1270px;">
         <div class="foto flex  " style="width: 550px;">
           <img src="/dekan.png" alt="Dekan FT-UH" class="drop-shadow-2xl rounded-3xl flex max-w-full h-full" style="height: 450px;" />
@@ -73,8 +73,9 @@
     </div>
     <section class="galeri flex justify-center relative " style="height: 580px;">
       <div class="content offside max-w-screen-xl  w-full bg-white border rounded-t-xl overflow-hidden " style="height: 630px;">
-        <div>
-          <h1 class="  font-bold py-5 text-center" style="font-family: Merriweather; font-size: 40px;">Galeri</h1>
+        <div class="pb-5">
+          <h1 class=" font-bold pt-5 text-center" style="font-family: Merriweather; font-size: 40px;">Galeri</h1>
+          <img src="/garis-merah.jpg" alt="" style="height: 15px; width: 8rem; padding-top: 5px; margin-left: 36rem;">
         </div>
         <div class=" flex " style="height: 300px;">
           <div class="w-full pt-6  px-6 " style="height: 300px;">
@@ -96,8 +97,10 @@
       </div>
     </section>
     <section class="dharma-wanita warna justify-center px-32" style="background-color: rgb(26, 46, 107); font-family: Merriweather;">
-      <div class="content w-full">
+      <div class="content w-full flex justify-around">
+        <img src="/garis-merah.jpg" alt="" style="height: 15px; width: 32rem; padding-top: 5px; margin-top: 40px;">
         <h1 class="text-2xl font-bold py-9 text-center text-white" style="font-size: 40px;">Dharma Wanita</h1>
+        <img src="/garis-merah.jpg" alt="" style="height: 15px; width: 32rem; padding-top: 5px; margin-top: 40px;">
       </div>
       <div class="py-5 flex gap-8">
         <img src="/dharma-wanita.png" alt="Dharma Wanita" class="rounded-2xl" style="height: 250px;"> 
@@ -112,7 +115,7 @@
       </div>
     </section>
     <section class="berita flex justify-center relative" style="height: 600px;">
-      <div class="content mt-6 max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden" style="height: 500px;">
+      <div class="content offside mt-6 max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden" style="height: 500px;">
         <h1 class="text-2xl font-bold py-5 text-center">Disini Berita</h1>
       </div>
     </section>
@@ -187,7 +190,7 @@
         </div>
       </div>
       <hr class="border-black">
-      <div class="py-6 text-center text-gray-400 text-sm">
+      <div class="footer2 py-6 text-center text-gray-400 text-sm">
         Copyright © 2023 All rights reserved
       </div>
     </footer>
@@ -214,7 +217,7 @@ header .navbar a:hover{
 }
 .offside{
   position: absolute;
-  top: -70px;
+  top: -90px;
 }
 .header-logo {
   float: left;
@@ -246,5 +249,9 @@ header .navbar a:hover{
 footer {
   background-color: rgb(26, 46, 107);
   color: white;
+}
+
+.footer2 {
+  background-color: rgb(16, 27, 60);
 }
 </style>
