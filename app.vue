@@ -178,8 +178,8 @@
             </form>
             <h3 class="mt-6">DIDUKUNG OLEH</h3>
             <div class="mt-6 flex flex-col gap-3 items-center">
-              <img class="bg-white" width="100px" src="https://eng.unhas.ac.id/fakultas/uploads/logo/58848eafe9ed984f2de7512fcf09b24a.png" alt="">
-              <img class="bg-white" width="100px" src="https://eng.unhas.ac.id/fakultas/uploads/logo/b93dfcc51ffc4fee783d7218ae4dfa41.png" alt="">
+              <img class="bg-white p-2" width="100px" src="https://eng.unhas.ac.id/fakultas/uploads/logo/58848eafe9ed984f2de7512fcf09b24a.png" alt="">
+              <img class="bg-white p-2" width="100px" src="https://eng.unhas.ac.id/fakultas/uploads/logo/b93dfcc51ffc4fee783d7218ae4dfa41.png" alt="">
             </div>
           </div>
         </div>
