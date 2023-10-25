@@ -96,11 +96,11 @@
         </div>
       </div>
     </section>
-    <section class="dharma-wanita warna justify-center px-32" style="background-color: rgb(26, 46, 107); font-family: Merriweather;">
+    <section class="dharma-wanita warna justify-center px-52" style="background-color: rgb(26, 46, 107); font-family: Merriweather;">
       <div class="content w-full flex justify-around">
-        <img src="/garis-merah.jpg" alt="" style="height: 15px; width: 32rem; padding-top: 5px; margin-top: 40px;">
+        <img src="/garis-merah.jpg" alt="" style="height: 15px; width: 25rem; padding-top: 5px; margin-top: 40px;">
         <h1 class="text-2xl font-bold py-9 text-center text-white" style="font-size: 40px;">Dharma Wanita</h1>
-        <img src="/garis-merah.jpg" alt="" style="height: 15px; width: 32rem; padding-top: 5px; margin-top: 40px;">
+        <img src="/garis-merah.jpg" alt="" style="height: 15px; width: 25rem; padding-top: 5px; margin-top: 40px;">
       </div>
       <div class="py-5 flex gap-8">
         <img src="/dharma-wanita.png" alt="Dharma Wanita" class="rounded-2xl" style="height: 250px;"> 
