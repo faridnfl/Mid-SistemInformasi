@@ -100,7 +100,7 @@
     <section class="dharma-wanita warna justify-center px-52 " style="background-color: rgb(26, 46, 107); font-family: Merriweather;">
       <div class="content w-full flex justify-around  ">
         <img src="/garis-merah.jpg" alt="" style="height: 15px; width: 25rem; padding-top: 5px; margin-top: 40px;">
-        <h1 class="text-2xl font-bold py-9 text-center text-white" style="font-size: 40px;">Dharma Wanita</h1>
+        <h1 class="text-2xl  py-9 text-center text-white" style="font-size: 40px;">Dharma Wanita</h1>
         <img src="/garis-merah.jpg" alt="" style="height: 15px; width: 25rem; padding-top: 5px; margin-top: 40px;">
       </div>
       <div class=" flex gap-8 w-full">
@@ -108,7 +108,7 @@
           <img src="/dharma-wanita.png" alt="Dharma Wanita" class="rounded-2xl w-full h-full "> 
         </div>
         <div class="" style="width: 1700px; height: auto;">
-          <p class="text-white font-medium   pt-16 text-justify" style="font-size: 25px; font-family: Roboto;">
+          <p class="text-white   pt-16 text-justify" style="font-size: 25px; font-family: Roboto;">
           Dharma Wanita Persatuan Fakultas Teknik Unhas yang diketuai oleh Ny. Muralia Isran Ramli, 
           aktif melakukan berbagai macam kegiatan seperti amaliah ramadhan, 
           arisan di kapal, kegiatan BKMT dan DPW Unhas.
@@ -120,21 +120,57 @@
       </div>
     </section>
 
-    <section class="berita flex justify-center relative" style="height: 600px;">
-      <div class="content offside mt-6 max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden" style="height: 500px;">
+    <section class="berita flex justify-center relative mt-4" style="height: 600px;">
+      <div class="content  mt-6 max-w-screen-xl w-full bg-white border overflow-hidden" style="height: 540px;">
         <h1 class="text-2xl font-bold py-5 text-center">Disini Berita</h1>
       </div>
     </section>
-    <section class="informasi flex justify-center bg-orange-400" >
-      <div class="content max-w-screen-xl w-full ">
-        <h1 class="text-2xl font-bold py-5 text-center">Disini Informasi</h1>
+
+
+    <section class="informasi items-center justify-center  " style="background-color: rgb(26, 46, 107); height: 1040px;">
+      <div class="content w-auto  ">
+        <h1 class="text-2xl  py-5 text-center text-white" style="font-size: 35px;">Informasi</h1>
       </div>
+      <div class=" flex mt-8 mx-auto my-auto   " style="height: 300px; width: 1300px;">
+          <div class="w-full pt-6 w-full px-6 " style="height: 300px;">
+            <img src="/berita1.jpeg" alt="" class="rounded-xl mx-auto my-auto" style="height: 250px;"/>
+            <h4 class=" text-center text-white font-bold " style="font-size: 20px;">The 3th EPI International Conference On Science And Engineering 2019 </h4>
+          </div>
+          <div class="w-full pt-6  px-6  " style="height: 300px;">
+            <img src="/berita2.jpeg" alt="class=" class="rounded-xl mx-auto my-auto" style="height: 250px;"/>
+            <h4 class="text-center text-white  font-bold" style="font-size: 20px;">Workshop & Simposium Nasional Geomekanika 5 2019 </h4>
+          </div>
+          <div class="w-full pt-6 px-6 " style="height: 300px;">
+            <img src="/berita3.jpg" alt="class=" class="rounded-xl mx-auto my-auto " style="height: 250px;"/>
+            <h4 class="text-center text-white  font-bold" style="font-size: 20px;">Pengembangan Karakter Mahasiswa Baru 2019 Fakultas Teknik Unhas</h4>
+          </div>
+      </div>
+      <div class=" flex mt-20 mx-auto my-auto   " style="height: 300px; width: 1300px;">
+          <div class="w-full pt-6 w-full px-6 " style="height: 300px;">
+            <img src="/berita4.jpeg" alt="" class="rounded-xl mx-auto my-auto" style="height: 250px;"/>
+            <h4 class=" text-center text-white font-bold " style="font-size: 20px;">International Guest Lecture On Journal</h4>
+          </div>
+          <div class="w-full pt-6  px-6  " style="height: 300px;">
+            <img src="/berita5.jpeg" alt="class=" class="rounded-xl mx-auto my-auto" style="height: 250px;"/>
+            <h4 class="text-center text-white  font-bold" style="font-size: 20px;">The 3th EPI International Conference on Science and Engineering (EICSE) 2019</h4>
+          </div>
+          <div class="w-full pt-6 px-6 " style="height: 300px;">
+            <img src="/berita6.jpeg" alt="class=" class="rounded-xl mx-auto my-auto " style="height: 250px;"/>
+            <h4 class="text-center text-white  font-bold" style="font-size: 20px;">International Conference on Civil and Environmental Engineering (ICCEE) 2019</h4>
+          </div>
+      </div>
+      <div class=" mt-32 items-center justify-center mx-auto my-auto" style="padding-left: 770px;">
+        <button class="rounded-xl mx-auto my-auto p-4" style="background-color: rgb(253, 253, 253); color: rgb(0, 0, 0);">SELENGKAPNYA</button>
+      </div>
+
     </section>
     <section class="map flex justify-center" style="height: 700px;">
       <div class="content max-w-screen-xl w-full bg-white">
         <h1 class="text-2xl font-bold py-5 text-center">Disini Site Map</h1>
       </div>
     </section>
+
+
   </main>
 
   
