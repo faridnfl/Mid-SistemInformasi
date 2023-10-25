@@ -96,11 +96,11 @@
         </div>
       </div>
     </section>
-    <section class="dharma-wanita warna justify-center px-40 " style="background-color: rgb(26, 46, 107); font-family: Merriweather;">
+    <section class="dharma-wanita warna justify-center px-32" style="background-color: rgb(26, 46, 107); font-family: Merriweather;">
       <div class="content w-full">
-        <h1 class="text-2xl font-bold py-5 text-center text-white" style="font-size: 40px;">DHARMA WANITA</h1>
+        <h1 class="text-2xl font-bold py-9 text-center text-white" style="font-size: 40px;">Dharma Wanita</h1>
       </div>
-      <div class="flex gap-8">
+      <div class="py-5 flex gap-8">
         <img src="/dharma-wanita.png" alt="Dharma Wanita" class="rounded-2xl" style="height: 250px;"> 
         <p class="text-white text-lg font-medium pt-20">
           Dharma Wanita Persatuan Fakultas Teknik Unhas yang diketuai oleh Ny. Muralia Isran Ramli, 
