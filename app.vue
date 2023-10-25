@@ -1,6 +1,6 @@
 <template>
 <div>
-  <header class=" h-28 flex items-center justify-between" style="margin-top: 40px; background-color: rgb(26, 44, 98);">
+  <header class="top-0 h-28 flex items-center justify-between" style="margin-top: 40px; background-color: rgb(26, 44, 98);">
     <div class="flex items-center mx-auto  " style="width: 98%;">
       <div class=" flex w-full " style="width: 600px;">
         <img src="/unhas_id.png" alt="logo" class="h-16  w-full" />
@@ -48,7 +48,7 @@
      <div class="sambutan flex pt-20 pb-20 mb-8"  style="background-color:  rgb(26, 46, 107);">
       <div class="flex  mx-auto" style="width: 1270px;">
         <div class="foto flex  " style="width: 550px;">
-          <img src="/dekan.png" alt="Dekan FT-UH" class=" rounded-3xl flex max-w-full h-full" style="height: 450px;" />
+          <img src="/dekan.png" alt="Dekan FT-UH" class="drop-shadow-2xl rounded-3xl flex max-w-full h-full" style="height: 450px;" />
         </div>
       <div class="ucapan ml-10 text-white  w-full">
         <h1 class="text-3xl font-bold font-Oswald" style="font-family: Oswald;">SAMBUTAN DEKAN</h1>
@@ -72,12 +72,31 @@
       </div>
       </div>
     </div>
-    <section class="galeri flex justify-center relative " style="height: 600px;">
-      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden " style="height: 670px;">
-        <h1 class=" font-bold py-5 text-center" style="font-family: Merriweather; font-size: 40px;">Galeri</h1>
+    <section class="galeri flex justify-center relative " style="height: 580px;">
+      <div class="content offside max-w-screen-xl  w-full bg-white border rounded-t-xl overflow-hidden " style="height: 630px;">
+        <div>
+          <h1 class="  font-bold py-5 text-center" style="font-family: Merriweather; font-size: 40px;">Galeri</h1>
+        </div>
+        <div class=" flex " style="height: 300px;">
+          <div class="w-full pt-6  px-6 " style="height: 300px;">
+            <img src="/kegiatan1.jpeg" alt="class=" class="rounded-xl" style="height: 250px;"/>
+            <h4 class="text-center font-bold" style="font-size: 20px;">Wisuda Universitas Hasanuddin Periode IV Tahap II </h4>
+          </div>
+          <div class="w-full pt-6  px-6 " style="height: 300px;">
+            <img src="/kegiatan2.jpeg" alt="class=" class="rounded-xl" style="height: 250px;"/>
+            <h4 class="text-center font-bold" style="font-size: 20px;">Rapat Koordinasi Internal </h4>
+          </div>
+          <div class="w-full pt-6  px-6" style="height: 300px;">
+            <img src="/kegiatan3.jpeg" alt="class=" class="rounded-xl w-full" style="height: 250px;"/>
+            <h4 class="text-center font-bold" style="font-size: 20px;">Transformasi Digital Manajemen Persuratan (mBerkas)</h4>
+          </div>
+        </div>
+        <div class="items-center place-content-center justify-center" style="height: 80px; margin-top: 90px; width: 350px; margin-left: 470px;">
+          <img src="/tombol.png" alt="" class="" style="height: 70px;"/>
+        </div>
       </div>
     </section>
-    <section class="dharma-wanita warna justify-center bg-orange-400 px-40 ">
+    <section class="dharma-wanita warna justify-center px-40 " style="background-color: rgb(246, 222, 82);">
       <div class="content w-full">
         <h1 class="text-2xl font-bold py-5 text-center text-white">DHARMA WANITA</h1>
       </div>
@@ -94,7 +113,7 @@
       </div>
     </section>
     <section class="berita flex justify-center relative" style="height: 600px;">
-      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden" style="height: 670px;">
+      <div class="content mt-6 max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden" style="height: 500px;">
         <h1 class="text-2xl font-bold py-5 text-center">Disini Berita</h1>
       </div>
     </section>
