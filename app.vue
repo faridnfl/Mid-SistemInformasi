@@ -96,9 +96,9 @@
         </div>
       </div>
     </section>
-    <section class="dharma-wanita warna justify-center px-40 " style="background-color: rgb(246, 222, 82);">
+    <section class="dharma-wanita warna justify-center px-40 " style="background-color: rgb(26, 46, 107); font-family: Merriweather;">
       <div class="content w-full">
-        <h1 class="text-2xl font-bold py-5 text-center text-white">DHARMA WANITA</h1>
+        <h1 class="text-2xl font-bold py-5 text-center text-white" style="font-size: 40px;">DHARMA WANITA</h1>
       </div>
       <div class="flex gap-8">
         <img src="/dharma-wanita.png" alt="Dharma Wanita" class="rounded-2xl" style="height: 250px;"> 
@@ -109,7 +109,7 @@
         </p>
       </div>
       <div class="grid justify-items-end">
-        <button style="background-color: rgb(19, 58, 98); color: white;">SELENGKAPNYA</button>
+        <button style="background-color: rgb(76, 89, 101); color: white;">SELENGKAPNYA</button>
       </div>
     </section>
     <section class="berita flex justify-center relative" style="height: 600px;">
