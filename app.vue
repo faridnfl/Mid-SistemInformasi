@@ -16,7 +16,7 @@
         <div class ="w-full "><a href="">COT</a></div>
         <div class ="w-full "><a href="">DHARMA WANITA</a></div>
       </div>
-    </div>
+    </div>np
   </header>
 </div>
 
@@ -40,8 +40,7 @@
   </header>
 </div>
 
-
-  <body>
+  <main>
     <section class="judul min-h-screen flex items-center place-content-center bg-cover bg-center">
       <h1 class="h-12 text-center text-white font-medium flex" style="font-family: Oswald; font-size: 2.5rem; text-shadow: 8px 6px 4px rgba(0, 0, 0, 20);">SELAMAT DATANG DI FAKULTAS <br> TEKNIK UNIVERSITAS HASANUDDIN</h1>
     </section>
@@ -127,6 +126,9 @@
         <h1 class="text-2xl font-bold py-5 text-center">Disini Site Map</h1>
       </div>
     </section>
+  </main>
+
+  
     <footer>
       <div class="content max-w-screen-xl mx-auto py-20">
         <div class="grid grid-cols-3 gap-5 text-sm font-semibold">
@@ -189,12 +191,12 @@
         Copyright © 2023 All rights reserved
       </div>
     </footer>
-  </body>
+
 </template>
 
 <style scoped>
-body {
-  background-color: #e8e4e4;
+main {
+  background-color: #d7d7d7;
 }
 
 header {
@@ -242,7 +244,7 @@ header .navbar a:hover{
 }
 
 footer {
-  background-color: #063d63;
+  background-color: rgb(26, 46, 107);
   color: white;
 }
 </style>
