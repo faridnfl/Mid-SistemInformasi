@@ -1,17 +1,13 @@
 <template>
   <div>
-    <header
-      class="top-0 h-28 flex items-center justify-between"
-      style="margin-top: 40px; background-color: rgb(26, 44, 98)"
-    >
+    <header class="top-0 h-28 flex items-center justify-between"
+      style="margin-top: 40px; background-color: rgb(26, 44, 98)">
       <div class="flex items-center mx-auto" style="width: 98%">
         <div class="flex w-full" style="width: 600px">
           <img src="/unhas_id.png" alt="logo" class="h-16 w-full" />
         </div>
-        <div
-          class="navbar space-x-6 ml-4 mt-2 text-white text-xl w-full flex whitespace-nowrap"
-          style="font-family: Oswald; font-size: 19px"
-        >
+        <div class="navbar space-x-6 ml-4 mt-2 text-white text-xl w-full flex whitespace-nowrap"
+          style="font-family: Oswald; font-size: 19px">
           <div class="w-full"><a href="">PROFIL</a></div>
           <div class="w-full"><a href="">AKADEMIK</a></div>
           <div class="w-full"><a href="">SUMBER DAYA</a></div>
@@ -28,15 +24,9 @@
 
   <div>
     <!-- Header Kedua -->
-    <header
-      class="p-4 h-10 flex items-center"
-      style="background-color: rgb(16, 27, 60)"
-    >
+    <header class="p-4 h-10 flex items-center" style="background-color: rgb(16, 27, 60)">
       <div class="tulisan text-white flex w-full mr-22"></div>
-      <div
-        class="flex text-white space-x-4 justify-center items-center"
-        style="width: 450px"
-      >
+      <div class="flex text-white space-x-4 justify-center items-center" style="width: 450px">
         <div class="flex space-x-4">
           <p>SITEMAP</p>
           <p>QUICK SITE</p>
@@ -52,45 +42,27 @@
   </div>
 
   <main>
-    <section
-      class="judul min-h-screen flex items-center place-content-center bg-cover bg-center"
-    >
-      <h1
-        class="h-12 text-center text-white font-medium flex"
-        style="
+    <section class="judul min-h-screen flex items-center place-content-center bg-cover bg-center">
+      <h1 class="h-12 text-center text-white font-medium flex" style="
           font-family: Oswald;
           font-size: 2.5rem;
           text-shadow: 8px 6px 4px rgba(0, 0, 0, 20);
-        "
-      >
+        ">
         SELAMAT DATANG DI FAKULTAS <br />
         TEKNIK UNIVERSITAS HASANUDDIN
       </h1>
     </section>
-    <div
-      class="sambutan flex pt-20 pb-20 mb-8"
-      style="background-color: rgb(26, 46, 107); min-height: 650px"
-    >
+    <div class="sambutan flex pt-20 pb-20 mb-8" style="background-color: rgb(26, 46, 107); min-height: 650px">
       <div class="flex mx-auto" style="width: 1270px">
         <div class="foto flex" style="width: 550px">
-          <img
-            src="/dekan.png"
-            alt="Dekan FT-UH"
-            class="drop-shadow-2xl rounded-3xl flex max-w-full h-full"
-            style="height: 450px"
-          />
+          <img src="/dekan.png" alt="Dekan FT-UH" class="drop-shadow-2xl rounded-3xl flex max-w-full h-full"
+            style="height: 450px" />
         </div>
         <div class="ucapan ml-10 text-white w-full">
-          <h1
-            class="text-3xl font-bold font-Oswald"
-            style="font-family: Oswald"
-          >
+          <h1 class="text-3xl font-bold font-Oswald" style="font-family: Oswald">
             SAMBUTAN DEKAN
           </h1>
-          <p
-            class="mt-6 text-justify"
-            style="font-size: 20px; opacity: 0.8; font-family: Roboto"
-          >
+          <p class="mt-6 text-justify" style="font-size: 20px; opacity: 0.8; font-family: Roboto">
             Assalamu Alaikum Wr. Wb. Puji syukur kehadirat Tuhan Yang Maha Kuasa
             atas limpahan rahmat dan hidayah-Nya sehingga informasi tentang
             Fakultas Teknik Unhas melalui situs web ini dapat terwujud. Besar
@@ -105,129 +77,68 @@
             kondisi Fakultas Teknik kepada semua lapisan masyarakat. Selamat
             Datang di Fakultas Teknik Universitas Hasanuddin.
           </p>
-          <p
-            class="mt-6 font-Roboto"
-            style="opacity: 0.8; font-size: 20px; font-family: Roboto"
-          >
+          <p class="mt-6 font-Roboto" style="opacity: 0.8; font-size: 20px; font-family: Roboto">
             Wassalam.
           </p>
-          <h2
-            class="font-bold text-2xl font-oswald"
-            style="font-family: Oswald; font-size: 27px"
-          >
+          <h2 class="font-bold text-2xl font-oswald" style="font-family: Oswald; font-size: 27px">
             Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN
             Eng.
           </h2>
         </div>
       </div>
     </div>
-    <section class="galeri flex justify-center relative" style="height: 580px">
-      <div
-        class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden"
-        style="height: 630px"
-      >
+
+    <section class="galeri flex justify-center relative" style="height: 520px">
+      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden"
+        style="height: 600px">
         <div class="pb-5">
-          <h1
-            class="font-bold pt-5 text-center"
-            style="font-family: Merriweather; font-size: 40px"
-          >
+          <h1 class="font-bold pt-5 text-center" style="font-family: Times New Roman Thin; font-size: 40px">
             Galeri
           </h1>
-          <img
-            src="/garis-merah.jpg"
-            alt=""
-            style="
-              height: 15px;
-              width: 8rem;
-              padding-top: 5px;
-              margin-left: 36rem;
-            "
-          />
         </div>
         <div class="flex" style="height: 300px">
           <div class="w-full pt-6 px-6" style="height: 300px">
-            <img
-              src="/kegiatan1.jpeg"
-              alt="class="
-              class="rounded-xl"
-              style="height: 250px"
-            />
-            <h4 class="text-center font-bold" style="font-size: 20px">
+            <img src="/kegiatan1.jpeg" alt="class=" class="rounded-xl" style="height: 250px" />
+            <h4 class="text-center font-bold" style="font-size: 20px; font-family: Times New Roman Thin">
               Wisuda Universitas Hasanuddin Periode IV Tahap II
             </h4>
           </div>
           <div class="w-full pt-6 px-6" style="height: 300px">
-            <img
-              src="/kegiatan2.jpeg"
-              alt="class="
-              class="rounded-xl"
-              style="height: 250px"
-            />
-            <h4 class="text-center font-bold" style="font-size: 20px">
+            <img src="/kegiatan2.jpeg" alt="class=" class="rounded-xl" style="height: 250px" />
+            <h4 class="text-center font-bold" style="font-size: 20px; font-family: Times New Roman Thin">
               Rapat Koordinasi Internal
             </h4>
           </div>
           <div class="w-full pt-6 px-6" style="height: 300px">
-            <img
-              src="/kegiatan3.jpeg"
-              alt="class="
-              class="rounded-xl w-full"
-              style="height: 250px"
-            />
-            <h4 class="text-center font-bold" style="font-size: 20px">
+            <img src="/kegiatan3.jpeg" alt="class=" class="rounded-xl w-full" style="height: 250px" />
+            <h4 class="text-center font-bold" style="font-size: 20px; font-family: Times New Roman Thin">
               Transformasi Digital Manajemen Persuratan (mBerkas)
             </h4>
           </div>
         </div>
-        <div
-          class="items-center place-content-center justify-center"
-          style="
+        <div class="items-center place-content-center justify-center" style="
             height: 80px;
-            margin-top: 90px;
+            margin-top: 70px;
             width: 350px;
             margin-left: 470px;
-          "
-        >
+          ">
           <img src="/tombol.png" alt="" class="" style="height: 70px" />
         </div>
       </div>
     </section>
 
-    <section
-      class="dharma-wanita warna justify-center px-52"
-      style="background-color: rgb(26, 46, 107); font-family: Merriweather"
-    >
+    <section class="dharma-wanita warna justify-center px-52" style="background-color: rgb(26, 46, 107)">
       <div class="content w-full flex justify-around">
-        <img
-          src="/garis-merah.jpg"
-          alt=""
-          style="height: 15px; width: 25rem; padding-top: 5px; margin-top: 40px"
-        />
-        <h1
-          class="text-2xl py-9 text-center text-white"
-          style="font-size: 40px"
-        >
+        <h1 class="text-2xl py-9 text-center text-white" style="font-size: 40px; font-family: Times New Roman Thin">
           Dharma Wanita
         </h1>
-        <img
-          src="/garis-merah.jpg"
-          alt=""
-          style="height: 15px; width: 25rem; padding-top: 5px; margin-top: 40px"
-        />
       </div>
-      <div class="flex gap-8 w-full">
+      <div class="flex gap-8 w-full mt-16">
         <div class="" style="width: 1000px; height: 300px">
-          <img
-            src="/dharma-wanita.png"
-            alt="Dharma Wanita"
-            class="rounded-2xl w-full h-full"
-          />
+          <img src="/dharma-wanita.png" alt="Dharma Wanita" class="rounded-2xl w-full h-full" />
         </div>
         <div class="" style="width: 1700px; height: auto">
-          <p
-            class="text-white pt-16 text-justify"
-            style="font-size: 25px; font-family: Roboto"
-          >
+          <p class="text-white pt-16 text-justify" style="font-size: 25px; font-family: Roboto">
             Dharma Wanita Persatuan Fakultas Teknik Unhas yang diketuai oleh Ny.
             Muralia Isran Ramli, aktif melakukan berbagai macam kegiatan seperti
             amaliah ramadhan, arisan di kapal, kegiatan BKMT dan DPW Unhas.
@@ -241,228 +152,155 @@
       </div>
     </section>
 
-    <section
-      class="berita flex justify-center relative mt-4"
-      style="height: 1150px"
-    >
-      <div
-        class="content offside mt-6 max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden"
-        style="height: 1150px"
-      >
-        <h1 class="text-2xl font-bold py-5 text-center">Disini Berita</h1>
-        <section
-          class="berita flex justify-center relative"
-          style="height: 1100px; font-family: Roboto"
-        >
-          <div
-            class="content offside mt-6 max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden"
-            style="height: 1100px"
-          >
-            <h1
-              class="text-2xl font-bold py-8 text-center"
-              style="font-size: 40px"
-            >
-              Berita
+    <section class="berita flex justify-center relative mt-20" style="height: 1150px">
+      <div class="content offside mt-6 max-w-screen-xl w-full bg-white  overflow-hidden" style="height: 1100px">
+        <h1 class="text-2xl font-bold py-8 text-center" style="font-size: 40px; font-family: Times New Roman Thin">
+          Berita
+        </h1>
+        <div id="berita" class="grid grid-cols-2 py-[2rem] pl-[7.8rem]">
+          <!--berita 1 -->
+          <div>
+            <img src="/news1.png" alt="berita 1" style="border-radius: 15px" />
+            <h1 class="font-bold pt-5 max-w-md">
+              LAM Teknik Laksanakan Asesmen Lapangan Untuk Program Studi
+              Doktor Departemen Teknik Elektro Universitas Hasanuddin
             </h1>
-            <div id="berita" class="grid grid-cols-2 py-[2rem] pl-[7.8rem]">
-              <!--berita 1 -->
-              <div>
-                <img
-                  src="/news1.png"
-                  alt="berita 1"
-                  style="border-radius: 15px"
-                />
-                <h1 class="font-bold pt-5 max-w-md">
-                  LAM Teknik Laksanakan Asesmen Lapangan Untuk Program Studi
-                  Doktor Departemen Teknik Elektro Universitas Hasanuddin
-                </h1>
-                <div class="flex pt-[1rem]">
-                  <div class="flex">
-                    <img src="/calendar.jpg" alt="error" class="pb-[3rem]" />
-                    <p class="text-[10px] text-grey pr-[25px]">
-                      25 Oktober 2023
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- berita 2 -->
-              <div>
-                <img
-                  src="/newss2.png"
-                  alt="berita 2"
-                  style="border-radius: 15px"
-                />
-                <h1 class="font-bold pt-5 max-w-md">
-                  LAM Teknik Laksanakan Asesmen Lapangan Untuk Program Studi
-                  Doktor Departemen Teknik Elektro Universitas Hasanuddin
-                </h1>
-                <div class="flex pt-[1rem]">
-                  <div class="flex">
-                    <img src="/calendar.jpg" alt="error" />
-                    <p class="text-[10px] text-grey pr-[25px]">
-                      25 Oktober 2023
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!--berita 3 -->
-              <div>
-                <img
-                  src="/news3.png"
-                  alt="berita 3"
-                  style="border-radius: 15px"
-                />
-                <h1 class="font-bold pt-5 max-w-md">
-                  Fakultas Teknik Terima Kunjungan Internasional dari JICA Untuk
-                  Ex-Post Evaluation Report Proyek Pengembangan Fakultas Teknik
-                  Universitas Hasanuddin (JICA Loan IP-541)
-                </h1>
-                <div class="flex pt-[1rem]">
-                  <div class="flex">
-                    <img src="/calendar.jpg" alt="error" />
-                    <p class="text-[10px] text-grey pr-[25px]">
-                      25 Oktober 2023
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- berita 4 -->
-              <div>
-                <img
-                  src="/news4.png"
-                  alt="berita 4"
-                  style="border-radius: 15px"
-                />
-                <h1 class="font-bold pt-5 max-w-md">
-                  Kepala BBIPHMM Kunjungi Fakultas Teknik, Program Studi Teknik
-                  Metalurgi dan Materi Fakultas Teknik Universitas Hasanuddin
-                  Gelar Kuliah Tamu.
-                </h1>
-                <div class="flex pt-[1rem]">
-                  <div class="flex">
-                    <img src="/calendar.jpg" alt="error" />
-                    <p class="text-[10px] text-grey pr-[25px]">
-                      23 Oktober 2023
-                    </p>
-                  </div>
-                </div>
+            <div class="flex pt-[1rem]">
+              <div class="flex">
+                <img src="/calendar.jpg" alt="error" class="pb-[3rem]" />
+                <p class="text-[10px] text-grey pr-[25px]">
+                  25 Oktober 2023
+                </p>
               </div>
             </div>
           </div>
-        </section>
+          <!-- berita 2 -->
+          <div>
+            <img src="/newss2.png" alt="berita 2" style="border-radius: 15px" />
+            <h1 class="font-bold pt-5 max-w-md">
+              LAM Teknik Laksanakan Asesmen Lapangan Untuk Program Studi
+              Doktor Departemen Teknik Elektro Universitas Hasanuddin
+            </h1>
+            <div class="flex pt-[1rem]">
+              <div class="flex">
+                <img src="/calendar.jpg" alt="error" />
+                <p class="text-[10px] text-grey pr-[25px]">
+                  25 Oktober 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--berita 3 -->
+          <div>
+            <img src="/news3.png" alt="berita 3" style="border-radius: 15px" />
+            <h1 class="font-bold pt-5 max-w-md">
+              Fakultas Teknik Terima Kunjungan Internasional dari JICA Untuk
+              Ex-Post Evaluation Report Proyek Pengembangan Fakultas Teknik
+              Universitas Hasanuddin (JICA Loan IP-541)
+            </h1>
+            <div class="flex pt-[1rem]">
+              <div class="flex">
+                <img src="/calendar.jpg" alt="error" />
+                <p class="text-[10px] text-grey pr-[25px]">
+                  25 Oktober 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- berita 4 -->
+          <div>
+            <img src="/news4.png" alt="berita 4" style="border-radius: 15px" />
+            <h1 class="font-bold pt-5 max-w-md">
+              Kepala BBIPHMM Kunjungi Fakultas Teknik, Program Studi Teknik
+              Metalurgi dan Materi Fakultas Teknik Universitas Hasanuddin
+              Gelar Kuliah Tamu.
+            </h1>
+            <div class="flex pt-[1rem]">
+              <div class="flex">
+                <img src="/calendar.jpg" alt="error" />
+                <p class="text-[10px] text-grey pr-[25px]">
+                  23 Oktober 2023
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section
-      class="informasi items-center justify-center"
-      style="background-color: rgb(26, 46, 107); height: 1040px"
-    >
+    <section class="informasi items-center -mt-24 justify-center"
+      style="background-color: rgb(26, 46, 107); height: 1000px">
       <div class="content w-auto">
-        <h1
-          class="text-2xl py-5 text-center text-white"
-          style="font-size: 35px"
-        >
+        <h1 class="text-2xl pt-10 mb-14 text-center text-white"
+          style="font-size: 40px; font-family: Times New Roman Thin">
           Informasi
         </h1>
       </div>
-      <div
-        class="flex mt-8 mx-auto my-auto"
-        style="height: 300px; width: 1300px"
-      >
+      <div class="flex mt-8 mx-auto my-auto" style="height: 300px; width: 1300px">
         <div class="w-full pt-6 w-full px-6" style="height: 300px">
-          <img
-            src="/berita1.jpeg"
-            alt=""
-            class="rounded-xl mx-auto my-auto"
-            style="height: 250px"
-          />
+          <img src="/berita1.jpeg" alt="" class="rounded-xl mx-auto my-auto" style="height: 250px" />
           <h4 class="text-center text-white font-bold" style="font-size: 20px">
             The 3th EPI International Conference On Science And Engineering 2019
           </h4>
         </div>
         <div class="w-full pt-6 px-6" style="height: 300px">
-          <img
-            src="/berita2.jpeg"
-            alt="class="
-            class="rounded-xl mx-auto my-auto"
-            style="height: 250px"
-          />
+          <img src="/berita2.jpeg" alt="class=" class="rounded-xl mx-auto my-auto" style="height: 250px" />
           <h4 class="text-center text-white font-bold" style="font-size: 20px">
             Workshop & Simposium Nasional Geomekanika 5 2019
           </h4>
         </div>
         <div class="w-full pt-6 px-6" style="height: 300px">
-          <img
-            src="/berita3.jpg"
-            alt="class="
-            class="rounded-xl mx-auto my-auto"
-            style="height: 250px"
-          />
+          <img src="/berita3.jpg" alt="class=" class="rounded-xl mx-auto my-auto" style="height: 250px" />
           <h4 class="text-center text-white font-bold" style="font-size: 20px">
             Pengembangan Karakter Mahasiswa Baru 2019 Fakultas Teknik Unhas
           </h4>
         </div>
       </div>
-      <div
-        class="flex mt-20 mx-auto my-auto"
-        style="height: 300px; width: 1300px"
-      >
+      <div class="flex mt-20 mx-auto my-auto" style="height: 300px; width: 1300px">
         <div class="w-full pt-6 w-full px-6" style="height: 300px">
-          <img
-            src="/berita4.jpeg"
-            alt=""
-            class="rounded-xl mx-auto my-auto"
-            style="height: 250px"
-          />
+          <img src="/berita4.jpeg" alt="" class="rounded-xl mx-auto my-auto" style="height: 250px" />
           <h4 class="text-center text-white font-bold" style="font-size: 20px">
             International Guest Lecture On Journal
           </h4>
         </div>
         <div class="w-full pt-6 px-6" style="height: 300px">
-          <img
-            src="/berita5.jpeg"
-            alt="class="
-            class="rounded-xl mx-auto my-auto"
-            style="height: 250px"
-          />
+          <img src="/berita5.jpeg" alt="class=" class="rounded-xl mx-auto my-auto" style="height: 250px" />
           <h4 class="text-center text-white font-bold" style="font-size: 20px">
             The 3th EPI International Conference on Science and Engineering
             (EICSE) 2019
           </h4>
         </div>
         <div class="w-full pt-6 px-6" style="height: 300px">
-          <img
-            src="/berita6.jpeg"
-            alt="class="
-            class="rounded-xl mx-auto my-auto"
-            style="height: 250px"
-          />
+          <img src="/berita6.jpeg" alt="class=" class="rounded-xl mx-auto my-auto" style="height: 250px" />
           <h4 class="text-center text-white font-bold" style="font-size: 20px">
             International Conference on Civil and Environmental Engineering
             (ICCEE) 2019
           </h4>
         </div>
       </div>
-      <div
-        class="mt-32 items-center justify-center mx-auto my-auto"
-        style="padding-left: 770px"
-      >
-        <button
-          class="rounded-xl mx-auto my-auto p-4"
-          style="background-color: rgb(253, 253, 253); color: rgb(0, 0, 0)"
-        >
+      <div class="mt-24 items-center justify-center mx-auto my-auto" style="padding-left: 770px">
+        <button class="rounded-xl mx-auto my-auto p-4"
+          style="background-color: rgb(76, 89, 101); color: rgb(255, 255, 255); ">
           SELENGKAPNYA
         </button>
       </div>
     </section>
-    <section class="map flex justify-center" style="height: 700px">
-      <div class="content max-w-screen-xl w-full bg-white">
-        <h1 class="text-2xl font-bold py-5 text-center">Disini Site Map</h1>
+
+    <section class="map flex justify-center mt-4 ">
+      <div class="content items-center justify-center max-w-screen-xl w-full bg-white border rounded-b-xl"
+        style="height: 500px;">
+        <h1 class="text-2xl font-bold pt-10 mb-8 text-center" style="font-family: Times New Roman Thin; font-size: 35px;">
+          Site
+          Map</h1>
+        <iframe width="800" height="350" frameborder="0" style="border:0" class="mx-auto my-auto"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1986.6034423601138!2d119.50052149927372!3d-5.230165715784235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee13639154f11%3A0x77d363f632d6f859!2sUniversitas%20Hasanuddin%20Kampus%20FAKULTAS%20TEKNIK%20Gowa!5e0!3m2!1sid!2sid!4v1698762059438!5m2!1sid!2sid&maptype=satellite"
+          allowfullscreen=""></iframe>
       </div>
     </section>
+
   </main>
 
-  <footer>
+  <footer class="-mt-10">
     <div class="content max-w-screen-xl mx-auto py-20">
       <div class="grid grid-cols-3 gap-5 text-sm font-semibold">
         <div>
@@ -515,33 +353,16 @@
         </div>
         <div>
           <h3>PENELUSURAN OLEH GOOGLE</h3>
-          <form
-            class="mt-6 bg-white p-3 flex justify-between"
-            action="https://www.google.com/search"
-            method="GET"
-          >
-            <input
-              type="text"
-              name="q"
-              class="text-black p-1 w-full border"
-              placeholder="Google Search"
-            />
+          <form class="mt-6 bg-white p-3 flex justify-between" action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" class="text-black p-1 w-full border" placeholder="Google Search" />
             <input type="submit" value="Search" class="bg-black px-3" />
           </form>
           <h3 class="mt-6">DIDUKUNG OLEH</h3>
           <div class="mt-6 flex flex-col gap-3 items-center">
-            <img
-              class="bg-white p-2"
-              width="100px"
-              src="https://eng.unhas.ac.id/fakultas/uploads/logo/58848eafe9ed984f2de7512fcf09b24a.png"
-              alt=""
-            />
-            <img
-              class="bg-white p-2"
-              width="100px"
-              src="https://eng.unhas.ac.id/fakultas/uploads/logo/b93dfcc51ffc4fee783d7218ae4dfa41.png"
-              alt=""
-            />
+            <img class="bg-white p-2" width="100px"
+              src="https://eng.unhas.ac.id/fakultas/uploads/logo/58848eafe9ed984f2de7512fcf09b24a.png" alt="" />
+            <img class="bg-white p-2" width="100px"
+              src="https://eng.unhas.ac.id/fakultas/uploads/logo/b93dfcc51ffc4fee783d7218ae4dfa41.png" alt="" />
           </div>
         </div>
       </div>
@@ -571,10 +392,12 @@ header .navbar a:hover {
 .warna {
   padding-bottom: 6rem;
 }
+
 .offside {
   position: absolute;
   top: -90px;
 }
+
 .header-logo {
   float: left;
   margin-top: 7px;
