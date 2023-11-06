@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="top-0 h-28 flex items-center justify-between"
-      style="margin-top: 40px; background-color: rgb(26, 44, 98)">
+      style="margin-top: 40px; background-color: rgb(31, 52, 115)">
       <div class="flex items-center mx-auto" style="width: 98%">
         <div class="flex w-full" style="width: 600px">
           <img src="/unhas_id.png" alt="logo" class="h-16 w-full" />
@@ -24,7 +24,7 @@
 
   <div>
     <!-- Header Kedua -->
-    <header class="p-4 h-10 flex items-center" style="background-color: rgb(16, 27, 60)">
+    <header class="p-4 h-10 flex items-center" style="background-color: rgb(28, 45, 93)">
       <div class="tulisan text-white flex w-full mr-22"></div>
       <div class="flex text-white space-x-4 justify-center items-center" style="width: 450px">
         <div class="flex space-x-4">
@@ -287,14 +287,8 @@
     </section>
 
     <section class="map flex justify-center mt-4 ">
-      <div class="content items-center justify-center max-w-screen-xl w-full bg-white border rounded-b-xl"
-        style="height: 500px;">
-        <h1 class="text-2xl font-bold pt-10 mb-8 text-center" style="font-family: Times New Roman Thin; font-size: 35px;">
-          Site
-          Map</h1>
-        <iframe width="800" height="350" frameborder="0" style="border:0" class="mx-auto my-auto"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1986.6034423601138!2d119.50052149927372!3d-5.230165715784235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee13639154f11%3A0x77d363f632d6f859!2sUniversitas%20Hasanuddin%20Kampus%20FAKULTAS%20TEKNIK%20Gowa!5e0!3m2!1sid!2sid!4v1698762059438!5m2!1sid!2sid&maptype=satellite"
-          allowfullscreen=""></iframe>
+      <div class="content items-center justify-center max-w-screen-xl w-full bg-white border rounded-b-xl" style="height: 500px;">
+        <iframe loading="lazy" style="height:100%; width:100%;" src="https://unhas.ac.id/petakampus/virtualtour/index.php?scene=outdoortheater#outdoortheater" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
       </div>
     </section>
 
@@ -374,6 +368,10 @@
   </footer>
 </template>
 
+
+
+
+
 <style scoped>
 main {
   background-color: #d7d7d7;
@@ -431,6 +429,6 @@ footer {
 }
 
 .footer2 {
-  background-color: rgb(16, 27, 60);
+  background-color: rgb(28, 45, 93)
 }
 </style>
