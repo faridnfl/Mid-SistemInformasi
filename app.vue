@@ -88,41 +88,31 @@
       </div>
     </div>
 
-    <section class="galeri flex justify-center relative" style="height: 520px">
+    <section class="galeri flex justify-center relative" style="height: 470px">
       <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden"
-        style="height: 600px">
+        style="height: 550px">
         <div class="pb-5">
-          <h1 class="font-bold pt-5 text-center" style="font-family: Times New Roman Thin; font-size: 40px">
-            Galeri
-          </h1>
+          <h1 class="font-bold pt-5 text-center" style="font-family: Times New Roman Thin; font-size: 40px">Galeri</h1>
         </div>
-        <div class="flex" style="height: 300px">
-          <div class="w-full pt-6 px-6" style="height: 300px">
-            <img src="/kegiatan1.jpeg" alt="class=" class="rounded-xl" style="height: 250px" />
-            <h4 class="text-center font-bold" style="font-size: 20px; font-family: Times New Roman Thin">
-              Wisuda Universitas Hasanuddin Periode IV Tahap II
-            </h4>
+        <div class="w-full mt-6">
+          <div class="px-6 overflow-hidden">
+            <div class="grid grid-cols-3 gap-4">
+              <button @click="prevImages" class="absolute left-0 py-32 px-0  text-white rounded hover:bg-blue-700 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 text-black">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"></path>
+                </svg>
+              </button>
+              <button @click="nextImages" class="absolute right-0 py-32 px-0  text-white rounded hover:bg-blue-700 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 text-black">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <div v-for="(image, index) in visibleImages" :key="index" class="relative">
+                <img :src="image.imageSrc" :alt="image.title" class="w-full h-72 object-cover py-2 px-2 z-0" />
+                <h4 class="text-center " style="font-family: Roboto; font-size: 19px; font-weight: bold;">{{ image.title }}</h4>
+              </div>
+            </div>
           </div>
-          <div class="w-full pt-6 px-6" style="height: 300px">
-            <img src="/kegiatan2.jpeg" alt="class=" class="rounded-xl" style="height: 250px" />
-            <h4 class="text-center font-bold" style="font-size: 20px; font-family: Times New Roman Thin">
-              Rapat Koordinasi Internal
-            </h4>
-          </div>
-          <div class="w-full pt-6 px-6" style="height: 300px">
-            <img src="/kegiatan3.jpeg" alt="class=" class="rounded-xl w-full" style="height: 250px" />
-            <h4 class="text-center font-bold" style="font-size: 20px; font-family: Times New Roman Thin">
-              Transformasi Digital Manajemen Persuratan (mBerkas)
-            </h4>
-          </div>
-        </div>
-        <div class="items-center place-content-center justify-center" style="
-            height: 80px;
-            margin-top: 70px;
-            width: 350px;
-            margin-left: 470px;
-          ">
-          <img src="/tombol.png" alt="" class="" style="height: 70px" />
         </div>
       </div>
     </section>
@@ -432,3 +422,42 @@ footer {
   background-color: rgb(28, 45, 93)
 }
 </style>
+
+<script>
+export default {
+  data() {
+    return {
+      images: [
+        { title: "Wisuda Universitas Hasanuddin Periode IV Tahap II", imageSrc: "/kegiatan1.jpeg" },
+        { title: "Rapat Koordinasi Internal", imageSrc: "/kegiatan2.jpeg" },
+        { title: "Transformasi digital manajemen persuratan (mBerkas)", imageSrc: "/kegiatan3.jpeg" },
+        { title: "Pengabdian Masyarakat", imageSrc: "/kegiatan4.jpeg" },
+        { title: "Rapat Kerja Fakultas Teknik", imageSrc: "/kegiatan5.jpeg" },
+        { title: "Pelantikan dan Pengambilan Sumpah Jabatan Pejabat", imageSrc: "/kegiatan6.jpeg" },
+        // Add more images as needed
+      ],
+      currentIndex: 0,
+      imagesPerRow: 3,
+    };
+  },
+  computed: {
+    visibleImages() {
+      const start = this.currentIndex;
+      const end = start + this.imagesPerRow;
+      return this.images.slice(start, end);
+    },
+  },
+  methods: {
+    selectImage(index) {
+      this.currentIndex = index;
+    },
+    prevImages() {
+      this.currentIndex = Math.max(this.currentIndex - this.imagesPerRow, 0);
+    },
+    nextImages() {
+      const maxIndex = this.images.length - this.imagesPerRow;
+      this.currentIndex = Math.min(this.currentIndex + this.imagesPerRow, maxIndex);
+    },
+  },
+};
+</script>
