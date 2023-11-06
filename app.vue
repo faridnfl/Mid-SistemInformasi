@@ -1,22 +1,97 @@
 <template>
   <div>
-    <header class="top-0 h-28 flex items-center justify-between"
-      style="margin-top: 40px; background-color: rgb(31, 52, 115)">
+    <header class="top-0 h-28 flex items-center justify-between" style="margin-top: 40px; background-color: rgb(31, 52, 115)">
       <div class="flex items-center mx-auto" style="width: 98%">
         <div class="flex w-full" style="width: 600px">
           <img src="/unhas_id.png" alt="logo" class="h-16 w-full" />
         </div>
-        <div class="navbar space-x-6 ml-4 mt-2 text-white text-xl w-full flex whitespace-nowrap"
-          style="font-family: Oswald; font-size: 19px">
-          <div class="w-full"><a href="">PROFIL</a></div>
-          <div class="w-full"><a href="">AKADEMIK</a></div>
-          <div class="w-full"><a href="">SUMBER DAYA</a></div>
-          <div class="w-full"><a href="">KEMAHASISWAAN</a></div>
-          <div class="w-full"><a href="">RISET DAN INOVASI</a></div>
-          <div class="w-full"><a href="">KEMITRAAN</a></div>
-          <div class="w-full"><a href="">GPM-PR</a></div>
-          <div class="w-full"><a href="">COT</a></div>
-          <div class="w-full"><a href="">DHARMA WANITA</a></div>
+        <div class="navbar space-x-6 ml-4 mt-2 text-white text-xl w-full flex whitespace-nowrap" style="font-family: Roboto; font-size: 19px">
+          <div class="relative group ">
+            <p class="group-hover:text group-hover:pointer-events-none">PROFIL</p>
+            <div class="absolute hidden group-hover:block mt-8 w-54 p-2 rounded shadow-lg text-white" style="background-color: rgb(31, 52, 115) ">
+              <a href="#">BERITA</a><br>
+              <a href="#">SEJARAH SINGKAT</a><br>
+              <a href="#">VISI, MISI DAN SASARAN</a><br>
+              <a href="#">MANAJEMEN</a><br>
+              <a href="#">STRUKTUR ORGANISASI</a><br>
+              <a href="#">MASTER PLAN</a><br>
+              <a href="#">PETA KAMPUS</a><br>
+              <a href="#">MEDIATEK</a><br>
+            </div>
+          </div>
+          <div class="relative group">
+            <p class="group-hover:text group-hover:pointer-events-none">AKADEMIK</p>
+            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
+              <a href="#">Submenu 1</a><br>
+              <a href="#">Submenu 2</a><br>
+              <a href="#">Submenu 3</a><br>
+            </div>
+          </div>
+          <div class="relative group">
+            <p class="group-hover:text group-hover:pointer-events-none">SUMBER DAYA</p>
+            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
+              <a href="#">Submenu 1</a><br>
+              <a href="#">Submenu 2</a><br>
+              <a href="#">Submenu 3</a><br>
+            </div>
+          </div>
+          <div class="relative group">
+            <p class="group-hover:text group-hover:pointer-events-none">K3</p>
+            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
+              <a href="#">Submenu 1</a><br>
+              <a href="#">Submenu 2</a><br>
+              <a href="#">Submenu 3</a><br>
+            </div>
+          </div>
+          <div class="relative group">
+            <p class="group-hover:text group-hover:pointer-events-none">KEMAHASISWAAN</p>
+            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
+              <a href="#">Submenu 1</a><br>
+              <a href="#">Submenu 2</a><br>
+              <a href="#">Submenu 3</a><br>
+            </div>
+          </div>
+          <div class="relative group">
+            <p class="group-hover:text group-hover:pointer-events-none">RISET DAN INOVASI</p>
+            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
+              <a href="#">Submenu 1</a><br>
+              <a href="#">Submenu 2</a><br>
+              <a href="#">Submenu 3</a><br>
+            </div>
+          </div>
+          <div class="relative group">
+            <p class="group-hover:text group-hover:pointer-events-none">KEMITRAAN</p>
+            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
+              <a href="#">Submenu 1</a><br>
+              <a href="#">Submenu 2</a><br>
+              <a href="#">Submenu 3</a><br>
+            </div>
+          </div>
+          <div class="relative group">
+            <p class="group-hover:text group-hover:pointer-events-none">GPM-PR</p>
+            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
+              <a href="#">Submenu 1</a><br>
+              <a href="#">Submenu 2</a><br>
+              <a href="#">Submenu 3</a><br>
+            </div>
+          </div>
+          <div class="relative group">
+            <p class="group-hover:text group-hover:pointer-events-none">COT</p>
+            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
+              <a href="#">Submenu 1</a><br>
+              <a href="#">Submenu 2</a><br>
+              <a href="#">Submenu 3</a><br>
+            </div>
+          </div>
+          <div class="relative group">
+            <p class="group-hover:text group-hover:pointer-events-none">DHARMA WANITA</p>
+            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
+              <a href="#">Submenu 1</a><br>
+              <a href="#">Submenu 2</a><br>
+              <a href="#">Submenu 3</a><br>
+            </div>
+          </div>
+          <!-- Add more dropdown items as needed -->
         </div>
       </div>
     </header>
@@ -277,8 +352,8 @@
     </section>
 
     <section class="map flex justify-center mt-4 ">
-      <div class="content items-center justify-center max-w-screen-xl w-full bg-white border rounded-b-xl" style="height: 500px;">
-        <iframe loading="lazy" style="height:100%; width:100%;" src="https://unhas.ac.id/petakampus/virtualtour/index.php?scene=outdoortheater#outdoortheater" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      <div class="content items-center justify-center max-w-screen-xl w-full   rounded-b-xl" style="height: 500px;">
+        <iframe loading="lazy" class="rounded-b-xl" style="height:100%; width:100%;" src="https://unhas.ac.id/petakampus/virtualtour/index.php?scene=outdoortheater#outdoortheater" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
       </div>
     </section>
 
@@ -371,10 +446,6 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
-}
-
-header .navbar a:hover {
-  color: red;
 }
 
 .warna {
