@@ -1,104 +1,4 @@
 <template>
-  <div>
-    <header class="top-0 h-28 flex items-center justify-between" style="margin-top: 40px; background-color: rgb(31, 52, 115)">
-      <div class="flex items-center mx-auto" style="width: 98%">
-        <div class="flex w-full" style="width: 600px">
-          <img src="/unhas_id.png" alt="logo" class="h-16 w-full" />
-        </div>
-        <div class="navbar space-x-6 ml-4 mt-2 text-white text-xl w-full flex whitespace-nowrap" style="font-family: Roboto; font-size: 19px">
-          <div class="relative group ">
-            <p class="group-hover:text group-hover:pointer-events-none">PROFIL</p>
-            <div class="absolute hidden group-hover:block mt-8 w-54 p-2 rounded shadow-lg text-white" style="background-color: rgb(31, 52, 115) ">
-              <a href="#">BERITA</a><br>
-              <a href="#">SEJARAH SINGKAT</a><br>
-              <a href="#">VISI, MISI DAN SASARAN</a><br>
-              <a href="#">MANAJEMEN</a><br>
-              <a href="#">STRUKTUR ORGANISASI</a><br>
-              <a href="#">MASTER PLAN</a><br>
-              <a href="#">PETA KAMPUS</a><br>
-              <a href="#">MEDIATEK</a><br>
-            </div>
-          </div>
-          <div class="relative group">
-            <p class="group-hover:text group-hover:pointer-events-none">AKADEMIK</p>
-            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
-              <a href="#">Submenu 1</a><br>
-              <a href="#">Submenu 2</a><br>
-              <a href="#">Submenu 3</a><br>
-            </div>
-          </div>
-          <div class="relative group">
-            <p class="group-hover:text group-hover:pointer-events-none">SUMBER DAYA</p>
-            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
-              <a href="#">Submenu 1</a><br>
-              <a href="#">Submenu 2</a><br>
-              <a href="#">Submenu 3</a><br>
-            </div>
-          </div>
-          <div class="relative group">
-            <p class="group-hover:text group-hover:pointer-events-none">K3</p>
-            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
-              <a href="#">Submenu 1</a><br>
-              <a href="#">Submenu 2</a><br>
-              <a href="#">Submenu 3</a><br>
-            </div>
-          </div>
-          <div class="relative group">
-            <p class="group-hover:text group-hover:pointer-events-none">KEMAHASISWAAN</p>
-            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
-              <a href="#">Submenu 1</a><br>
-              <a href="#">Submenu 2</a><br>
-              <a href="#">Submenu 3</a><br>
-            </div>
-          </div>
-          <div class="relative group">
-            <p class="group-hover:text group-hover:pointer-events-none">RISET DAN INOVASI</p>
-            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
-              <a href="#">Submenu 1</a><br>
-              <a href="#">Submenu 2</a><br>
-              <a href="#">Submenu 3</a><br>
-            </div>
-          </div>
-          <div class="relative group">
-            <p class="group-hover:text group-hover:pointer-events-none">KEMITRAAN</p>
-            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
-              <a href="#">Submenu 1</a><br>
-              <a href="#">Submenu 2</a><br>
-              <a href="#">Submenu 3</a><br>
-            </div>
-          </div>
-          <div class="relative group">
-            <p class="group-hover:text group-hover:pointer-events-none">GPM-PR</p>
-            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
-              <a href="#">Submenu 1</a><br>
-              <a href="#">Submenu 2</a><br>
-              <a href="#">Submenu 3</a><br>
-            </div>
-          </div>
-          <div class="relative group">
-            <p class="group-hover:text group-hover:pointer-events-none">COT</p>
-            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
-              <a href="#">Submenu 1</a><br>
-              <a href="#">Submenu 2</a><br>
-              <a href="#">Submenu 3</a><br>
-            </div>
-          </div>
-          <div class="relative group">
-            <p class="group-hover:text group-hover:pointer-events-none">DHARMA WANITA</p>
-            <div class="absolute hidden bg-white text-white group-hover:block mt-8 w-48 p-2 rounded shadow-lg" style="background-color: rgb(31, 52, 115)">
-              <a href="#">Submenu 1</a><br>
-              <a href="#">Submenu 2</a><br>
-              <a href="#">Submenu 3</a><br>
-            </div>
-          </div>
-          <!-- Add more dropdown items as needed -->
-        </div>
-      </div>
-    </header>
-  </div>
-
-  <div>
-    <!-- Header Kedua -->
     <header class="p-4 h-10 flex items-center" style="background-color: rgb(28, 45, 93)">
       <div class="tulisan text-white flex w-full mr-22"></div>
       <div class="flex text-white space-x-4 justify-center items-center" style="width: 450px">
@@ -114,7 +14,25 @@
         </div>
       </div>
     </header>
-  </div>
+    <header class="top-0 h-28 flex items-center justify-between" style="margin-top: 40px; background-color: rgb(31, 52, 115)">
+      <div class="flex items-center mx-auto" style="width: 98%">
+        <div class="flex w-full" style="width: 600px">
+          <img src="/unhas_id.png" alt="logo" class="h-16 w-full" />
+        </div>
+        <div class="navbar ml-8 mt-2 text-white w-full" style="font-family: Roboto; font-size: 19px;">
+          <div v-for="(menu, index) in menus" :key="index" class="relative group mr-5">
+            <p @click="toggleDropdown(index)" class="cursor-pointer">{{ menu.label }}</p>
+            <div 
+              v-show="openDropdown === index" 
+              class="absolute mt-2 p-2 rounded shadow-lg text-white" 
+              style="background-color: rgb(31, 52, 115); min-width: 220px;"
+            >
+              <a v-for="(submenu, subIndex) in menu.submenus" :key="subIndex" href="#" class="block py-2">{{ submenu }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
   <main>
     <section class="judul min-h-screen flex items-center place-content-center bg-cover bg-center">
@@ -162,7 +80,6 @@
         </div>
       </div>
     </div>
-
     <section class="galeri flex justify-center relative" style="height: 470px">
       <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden"
         style="height: 550px">
@@ -184,14 +101,13 @@
               </button>
               <div v-for="(image, index) in visibleImages" :key="index" class="relative">
                 <img :src="image.imageSrc" :alt="image.title" class="w-full h-72 object-cover py-2 px-2 z-0" />
-                <h4 class="text-center " style="font-family: Roboto; font-size: 19px; font-weight: bold;">{{ image.title }}</h4>
+                <h4 class="text-center" style="font-family: Roboto; font-size: 19px; font-weight: bold;">{{ image.title }}</h4>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <section class="dharma-wanita warna justify-center px-52" style="background-color: rgb(26, 46, 107)">
       <div class="content w-full flex justify-around">
         <h1 class="text-2xl py-9 text-center text-white" style="font-size: 40px; font-family: Times New Roman Thin">
@@ -216,7 +132,6 @@
         </button>
       </div>
     </section>
-
     <section class="berita flex justify-center relative mt-20" style="height: 1150px">
       <div class="content offside mt-6 max-w-screen-xl w-full bg-white  overflow-hidden" style="height: 1100px">
         <h1 class="text-2xl font-bold py-8 text-center" style="font-size: 40px; font-family: Times New Roman Thin">
@@ -292,7 +207,6 @@
         </div>
       </div>
     </section>
-
     <section class="informasi items-center -mt-24 justify-center"
       style="background-color: rgb(26, 46, 107); height: 1000px">
       <div class="content w-auto">
@@ -350,13 +264,11 @@
         </button>
       </div>
     </section>
-
     <section class="map flex justify-center mt-4 ">
       <div class="content items-center justify-center max-w-screen-xl w-full   rounded-b-xl" style="height: 500px;">
         <iframe loading="lazy" class="rounded-b-xl" style="height:100%; width:100%;" src="https://unhas.ac.id/petakampus/virtualtour/index.php?scene=outdoortheater#outdoortheater" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
       </div>
     </section>
-
   </main>
 
   <footer class="-mt-10">
@@ -433,13 +345,99 @@
   </footer>
 </template>
 
-
-
-
+<script>
+export default {
+  data() {
+    return {
+      images: [
+        { title: "Wisuda Universitas Hasanuddin Periode IV Tahap II", imageSrc: "/kegiatan1.jpeg" },
+        { title: "Rapat Koordinasi Internal", imageSrc: "/kegiatan2.jpeg" },
+        { title: "Transformasi digital manajemen persuratan (mBerkas)", imageSrc: "/kegiatan3.jpeg" },
+        { title: "Pengabdian Masyarakat", imageSrc: "/kegiatan4.jpeg" },
+        { title: "Rapat Kerja Fakultas Teknik", imageSrc: "/kegiatan5.jpeg" },
+        { title: "Pelantikan dan Pengambilan Sumpah Jabatan Pejabat", imageSrc: "/kegiatan6.jpeg" },
+      ],
+      currentIndex: 0,
+      imagesPerRow: 3,
+      openDropdown: null,
+      menus: [
+        {
+          label: 'PROFIL',
+          submenus: ['BERITA', 'SEJARAH SINGKAT', 'VISI, MISI DAN SASARAN', 'MANAJEMEN', 'STRUKTUR ORGANISASI', 'MASTER PLAN', 'PETA KAMPUS', 'MEDIATEK'],
+        },
+        {
+          label: 'AKADEMIK',
+          submenus: ['DEPARTEMEN', 'PROGRAM MAGISTER', 'PROGRAM DOKTOR', 'PROGRAM PROFESI', 'AKREDITASI', 'KALENDER AKADEMIK'],
+        },
+        {
+          label: 'SUMBER DAYA',
+          submenus: ['GURU BESAR', 'TENAGA KEPENDIDIKAN', 'SARANA DAN PRASARANA', 'PERPUSTAKAAN'],
+        },
+        {
+          label: 'K3',
+          submenus: ['PROFIL K3', 'STRUKTUR ORGANISASI K3', 'TENTANG K3 FT-UH', 'FILE PENDUKUNG'],
+        },
+        {
+          label: 'MAHASISWAAN',
+          submenus: ['UPT ASRAMA (RAMTEK)', 'PENGEMBANGAN KARAKTER MAHASISWA', 'PENINGKATAN PRESTASI MAHASISWA', 'ALUMNI', 'ATURAN KEMAHASISWAAN', 'PENGUMUMAN'],
+        },
+        {
+          label: 'RISET DAN INOVASI',
+          submenus: ['DAFTAR PENELITIAN LBE TAHUN 2020', 'HASIL INOVASI', 'HAK KEKAYAAN INTELEKTUAL'],
+        },
+        {
+          label: 'KEMITRAAN',
+          submenus: ['KERJASAMA DALAM NEGERI', 'KERJASAMA LUAR NEGERI'],
+        },
+        {
+          label: 'GPM-PR',
+          submenus: ['PROFIL GPM-PR', 'DOKUMEN MUTU', 'AUDIT MUTU AKADEMIK INTERNAL', 'AKREDITASI', 'LAM TEKNIK', 'LAPORAN KEPUASAAN PENGGUNA', 'SURVEI KEPUASAN LAYANAN MAHASISWA', 'GALERI'],
+        },
+        {
+          label: 'COT',
+          submenus: ['COT WEBSITE', 'JURNAL COT', 'COT NEWSLETTER', 'U-I-G COLLABORATION'],
+        },
+        {
+          label: 'DHARMA WANITA',
+          submenus: ['HALAMAN UTAMA DHARMA WANITA', 'PROFIL DHARMA WANITA', 'STRUKTUR ORGANISASI DHARMAWANITA', 'PROGRAM KERJA', 'KEGIATAN DHARMA WANITA'],
+        },
+        // Tambahkan menu lainnya di sini
+      ],
+    };
+  },
+  computed: {
+    visibleImages() {
+      const start = this.currentIndex;
+      const end = start + this.imagesPerRow;
+      return this.images.slice(start, end);
+    },
+  },
+  methods: {
+    selectImage(index) {
+      this.currentIndex = index;
+    },
+    prevImages() {
+      this.currentIndex = Math.max(this.currentIndex - this.imagesPerRow, 0);
+    },
+    nextImages() {
+      const maxIndex = this.images.length - this.imagesPerRow;
+      this.currentIndex = Math.min(this.currentIndex + this.imagesPerRow, maxIndex);
+    },
+    toggleDropdown(index) {
+      this.openDropdown = this.openDropdown === index ? null : index;
+    },
+  },
+};
+</script>
 
 <style scoped>
 main {
   background-color: #d7d7d7;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row; 
 }
 
 header {
@@ -493,42 +491,3 @@ footer {
   background-color: rgb(28, 45, 93)
 }
 </style>
-
-<script>
-export default {
-  data() {
-    return {
-      images: [
-        { title: "Wisuda Universitas Hasanuddin Periode IV Tahap II", imageSrc: "/kegiatan1.jpeg" },
-        { title: "Rapat Koordinasi Internal", imageSrc: "/kegiatan2.jpeg" },
-        { title: "Transformasi digital manajemen persuratan (mBerkas)", imageSrc: "/kegiatan3.jpeg" },
-        { title: "Pengabdian Masyarakat", imageSrc: "/kegiatan4.jpeg" },
-        { title: "Rapat Kerja Fakultas Teknik", imageSrc: "/kegiatan5.jpeg" },
-        { title: "Pelantikan dan Pengambilan Sumpah Jabatan Pejabat", imageSrc: "/kegiatan6.jpeg" },
-        // Add more images as needed
-      ],
-      currentIndex: 0,
-      imagesPerRow: 3,
-    };
-  },
-  computed: {
-    visibleImages() {
-      const start = this.currentIndex;
-      const end = start + this.imagesPerRow;
-      return this.images.slice(start, end);
-    },
-  },
-  methods: {
-    selectImage(index) {
-      this.currentIndex = index;
-    },
-    prevImages() {
-      this.currentIndex = Math.max(this.currentIndex - this.imagesPerRow, 0);
-    },
-    nextImages() {
-      const maxIndex = this.images.length - this.imagesPerRow;
-      this.currentIndex = Math.min(this.currentIndex + this.imagesPerRow, maxIndex);
-    },
-  },
-};
-</script>

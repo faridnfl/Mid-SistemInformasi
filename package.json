@@ -20,6 +20,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "alpinejs": "^3.13.3",
     "axios": "^1.6.0"
   }
 }
