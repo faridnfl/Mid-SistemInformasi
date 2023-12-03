@@ -345,88 +345,86 @@
   </footer>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      images: [
-        { title: "Wisuda Universitas Hasanuddin Periode IV Tahap II", imageSrc: "/kegiatan1.jpeg" },
-        { title: "Rapat Koordinasi Internal", imageSrc: "/kegiatan2.jpeg" },
-        { title: "Transformasi digital manajemen persuratan (mBerkas)", imageSrc: "/kegiatan3.jpeg" },
-        { title: "Pengabdian Masyarakat", imageSrc: "/kegiatan4.jpeg" },
-        { title: "Rapat Kerja Fakultas Teknik", imageSrc: "/kegiatan5.jpeg" },
-        { title: "Pelantikan dan Pengambilan Sumpah Jabatan Pejabat", imageSrc: "/kegiatan6.jpeg" },
-      ],
-      currentIndex: 0,
-      imagesPerRow: 3,
-      openDropdown: null,
-      menus: [
-        {
-          label: 'PROFIL',
-          submenus: ['BERITA', 'SEJARAH SINGKAT', 'VISI, MISI DAN SASARAN', 'MANAJEMEN', 'STRUKTUR ORGANISASI', 'MASTER PLAN', 'PETA KAMPUS', 'MEDIATEK'],
-        },
-        {
-          label: 'AKADEMIK',
-          submenus: ['DEPARTEMEN', 'PROGRAM MAGISTER', 'PROGRAM DOKTOR', 'PROGRAM PROFESI', 'AKREDITASI', 'KALENDER AKADEMIK'],
-        },
-        {
-          label: 'SUMBER DAYA',
-          submenus: ['GURU BESAR', 'TENAGA KEPENDIDIKAN', 'SARANA DAN PRASARANA', 'PERPUSTAKAAN'],
-        },
-        {
-          label: 'K3',
-          submenus: ['PROFIL K3', 'STRUKTUR ORGANISASI K3', 'TENTANG K3 FT-UH', 'FILE PENDUKUNG'],
-        },
-        {
-          label: 'MAHASISWAAN',
-          submenus: ['UPT ASRAMA (RAMTEK)', 'PENGEMBANGAN KARAKTER MAHASISWA', 'PENINGKATAN PRESTASI MAHASISWA', 'ALUMNI', 'ATURAN KEMAHASISWAAN', 'PENGUMUMAN'],
-        },
-        {
-          label: 'RISET DAN INOVASI',
-          submenus: ['DAFTAR PENELITIAN LBE TAHUN 2020', 'HASIL INOVASI', 'HAK KEKAYAAN INTELEKTUAL'],
-        },
-        {
-          label: 'KEMITRAAN',
-          submenus: ['KERJASAMA DALAM NEGERI', 'KERJASAMA LUAR NEGERI'],
-        },
-        {
-          label: 'GPM-PR',
-          submenus: ['PROFIL GPM-PR', 'DOKUMEN MUTU', 'AUDIT MUTU AKADEMIK INTERNAL', 'AKREDITASI', 'LAM TEKNIK', 'LAPORAN KEPUASAAN PENGGUNA', 'SURVEI KEPUASAN LAYANAN MAHASISWA', 'GALERI'],
-        },
-        {
-          label: 'COT',
-          submenus: ['COT WEBSITE', 'JURNAL COT', 'COT NEWSLETTER', 'U-I-G COLLABORATION'],
-        },
-        {
-          label: 'DHARMA WANITA',
-          submenus: ['HALAMAN UTAMA DHARMA WANITA', 'PROFIL DHARMA WANITA', 'STRUKTUR ORGANISASI DHARMAWANITA', 'PROGRAM KERJA', 'KEGIATAN DHARMA WANITA'],
-        },
-        // Tambahkan menu lainnya di sini
-      ],
-    };
-  },
-  computed: {
-    visibleImages() {
-      const start = this.currentIndex;
-      const end = start + this.imagesPerRow;
-      return this.images.slice(start, end);
-    },
-  },
-  methods: {
-    selectImage(index) {
-      this.currentIndex = index;
-    },
-    prevImages() {
-      this.currentIndex = Math.max(this.currentIndex - this.imagesPerRow, 0);
-    },
-    nextImages() {
-      const maxIndex = this.images.length - this.imagesPerRow;
-      this.currentIndex = Math.min(this.currentIndex + this.imagesPerRow, maxIndex);
-    },
-    toggleDropdown(index) {
-      this.openDropdown = this.openDropdown === index ? null : index;
-    },
-  },
+<script setup>
+import { ref, computed, onMounted } from 'vue';
+
+const images = ref([
+  { title: "Wisuda Universitas Hasanuddin Periode IV Tahap II", imageSrc: "/kegiatan1.jpeg" },
+  { title: "Rapat Koordinasi Internal", imageSrc: "/kegiatan2.jpeg" },
+  { title: "Transformasi digital manajemen persuratan (mBerkas)", imageSrc: "/kegiatan3.jpeg" },
+  { title: "Pengabdian Masyarakat", imageSrc: "/kegiatan4.jpeg" },
+  { title: "Rapat Kerja Fakultas Teknik", imageSrc: "/kegiatan5.jpeg" },
+  { title: "Pelantikan dan Pengambilan Sumpah Jabatan Pejabat", imageSrc: "/kegiatan6.jpeg" },
+]);
+
+const currentIndex = ref(0);
+const imagesPerRow = ref(3);
+const openDropdown = ref(null);
+
+const menus = ref([
+{
+label: 'PROFIL',
+submenus: ['BERITA', 'SEJARAH SINGKAT', 'VISI, MISI DAN SASARAN', 'MANAJEMEN', 'STRUKTUR ORGANISASI', 'MASTER PLAN', 'PETA KAMPUS', 'MEDIATEK'],
+},
+{
+label: 'AKADEMIK',
+submenus: ['DEPARTEMEN', 'PROGRAM MAGISTER', 'PROGRAM DOKTOR', 'PROGRAM PROFESI', 'AKREDITASI', 'KALENDER AKADEMIK'],
+},
+{
+label: 'SUMBER DAYA',
+submenus: ['GURU BESAR', 'TENAGA KEPENDIDIKAN', 'SARANA DAN PRASARANA', 'PERPUSTAKAAN'],
+},
+{
+label: 'K3',
+submenus: ['PROFIL K3', 'STRUKTUR ORGANISASI K3', 'TENTANG K3 FT-UH', 'FILE PENDUKUNG'],
+},
+{
+label: 'MAHASISWAAN',
+submenus: ['UPT ASRAMA (RAMTEK)', 'PENGEMBANGAN KARAKTER MAHASISWA', 'PENINGKATAN PRESTASI MAHASISWA', 'ALUMNI', 'ATURAN KEMAHASISWAAN', 'PENGUMUMAN'],
+},
+{
+label: 'RISET DAN INOVASI',
+submenus: ['DAFTAR PENELITIAN LBE TAHUN 2020', 'HASIL INOVASI', 'HAK KEKAYAAN INTELEKTUAL'],
+},
+{
+label: 'KEMITRAAN',
+submenus: ['KERJASAMA DALAM NEGERI', 'KERJASAMA LUAR NEGERI'],
+},
+{
+label: 'GPM-PR',
+submenus: ['PROFIL GPM-PR', 'DOKUMEN MUTU', 'AUDIT MUTU AKADEMIK INTERNAL', 'AKREDITASI', 'LAM TEKNIK', 'LAPORAN KEPUASAAN PENGGUNA', 'SURVEI KEPUASAN LAYANAN MAHASISWA', 'GALERI'],
+},
+{
+label: 'COT',
+submenus: ['COT WEBSITE', 'JURNAL COT', 'COT NEWSLETTER', 'U-I-G COLLABORATION'],
+},
+{
+label: 'DHARMA WANITA',
+submenus: ['HALAMAN UTAMA DHARMA WANITA', 'PROFIL DHARMA WANITA', 'STRUKTUR ORGANISASI DHARMAWANITA', 'PROGRAM KERJA', 'KEGIATAN DHARMA WANITA'],
+},
+]);
+
+const visibleImages = computed(() => {
+  const start = currentIndex.value;
+  const end = start + imagesPerRow.value;
+  return images.value.slice(start, end);
+});
+
+const selectImage = (index) => {
+  currentIndex.value = index;
+};
+
+const prevImages = () => {
+  currentIndex.value = Math.max(currentIndex.value - imagesPerRow.value, 0);
+};
+
+const nextImages = () => {
+  const maxIndex = images.value.length - imagesPerRow.value;
+  currentIndex.value = Math.min(currentIndex.value + imagesPerRow.value, maxIndex);
+};
+
+const toggleDropdown = (index) => {
+  openDropdown.value = openDropdown.value === index ? null : index;
 };
 </script>
 
