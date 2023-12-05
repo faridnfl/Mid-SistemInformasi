@@ -81,28 +81,21 @@
       </div>
     </div>
     <section class="galeri flex justify-center relative" style="height: 470px">
-      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden"
-        style="height: 550px">
+      <div class="content offside max-w-screen-xl w-full bg-white border rounded-t-xl overflow-hidden" style="height: 550px">
         <div class="pb-5">
           <h1 class="font-bold pt-5 text-center" style="font-family: Times New Roman Thin; font-size: 40px">Galeri</h1>
         </div>
         <div class="w-full mt-6">
           <div class="px-6 overflow-hidden">
             <div class="grid grid-cols-3 gap-4">
-              <button @click="prevImages" class="absolute left-0 py-32 px-0  text-white rounded hover:bg-blue-700 z-10">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 text-black">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"></path>
-                </svg>
-              </button>
-              <button @click="nextImages" class="absolute right-0 py-32 px-0  text-white rounded hover:bg-blue-700 z-10">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 text-black">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
-                </svg>
-              </button>
-              <div v-for="(image, index) in visibleImages" :key="index" class="relative">
-                <img :src="image.imageSrc" :alt="image.title" class="w-full h-72 object-cover py-2 px-2 z-0" />
-                <h4 class="text-center" style="font-family: Roboto; font-size: 19px; font-weight: bold;">{{ image.title }}</h4>
+              <div v-for="(item, index) in visibleItems" :key="item.id" class="mb-4">
+                <img :src="getImageUrl(item.gambar)" alt="Image" class="w-full h-60 object-cover" />
+                <div class="mt-2" v-html="item.konten" style="font-family: Roboto; font-weight: bold;"></div>
               </div>
+            </div>
+            <div class="flex justify-between mt-4">
+              <button @click="prevPage" :disabled="currentPage === 0" class="text-gray-500 cursor-pointer" style="font-family: Roboto; font-weight: bold;">&lt; Sebelumnya</button>
+              <button @click="nextPage" :disabled="currentPage === totalPages - 1" class="text-gray-500 cursor-pointer" style="font-family: Roboto; font-weight: bold;">Selanjutnya &gt;</button>
             </div>
           </div>
         </div>
@@ -345,22 +338,19 @@
   </footer>
 </template>
 
+// ======================================= //
+
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 
-const images = ref([
-  { title: "Wisuda Universitas Hasanuddin Periode IV Tahap II", imageSrc: "/kegiatan1.jpeg" },
-  { title: "Rapat Koordinasi Internal", imageSrc: "/kegiatan2.jpeg" },
-  { title: "Transformasi digital manajemen persuratan (mBerkas)", imageSrc: "/kegiatan3.jpeg" },
-  { title: "Pengabdian Masyarakat", imageSrc: "/kegiatan4.jpeg" },
-  { title: "Rapat Kerja Fakultas Teknik", imageSrc: "/kegiatan5.jpeg" },
-  { title: "Pelantikan dan Pengambilan Sumpah Jabatan Pejabat", imageSrc: "/kegiatan6.jpeg" },
-]);
+const endpoint = "http://localhost:8055/items/Galeri"
+const galeriData = ref([]);
 
-const currentIndex = ref(0);
-const imagesPerRow = ref(3);
+const itemsPerPage = ref(3);
+const currentPage = ref(0);
+const totalPages = computed(() => Math.ceil(galeriData.value.length / itemsPerPage.value));
+
 const openDropdown = ref(null);
-
 const menus = ref([
 {
 label: 'PROFIL',
@@ -404,29 +394,48 @@ submenus: ['HALAMAN UTAMA DHARMA WANITA', 'PROFIL DHARMA WANITA', 'STRUKTUR ORGA
 },
 ]);
 
-const visibleImages = computed(() => {
-  const start = currentIndex.value;
-  const end = start + imagesPerRow.value;
-  return images.value.slice(start, end);
-});
+async function getGaleri() {
+  const api = await fetch(endpoint)
+  const data = await api.json()
+  console.log(data.data)
+  galeriData.value = data.data;
+}
 
-const selectImage = (index) => {
-  currentIndex.value = index;
+onMounted(() => {
+  getGaleri();
+})
+
+
+const getImageUrl = (imageName) => {
+  return `http://localhost:8055/assets/${imageName}`;
 };
 
-const prevImages = () => {
-  currentIndex.value = Math.max(currentIndex.value - imagesPerRow.value, 0);
-};
-
-const nextImages = () => {
-  const maxIndex = images.value.length - imagesPerRow.value;
-  currentIndex.value = Math.min(currentIndex.value + imagesPerRow.value, maxIndex);
-};
 
 const toggleDropdown = (index) => {
   openDropdown.value = openDropdown.value === index ? null : index;
 };
+
+const visibleItems = computed(() => {
+  const start = currentPage.value * itemsPerPage.value;
+  const end = start + itemsPerPage.value;
+  return galeriData.value.slice(start, end);
+});
+
+const prevPage = () => {
+  if (currentPage.value > 0) {
+    currentPage.value--;
+  }
+};
+
+const nextPage = () => {
+  if (currentPage.value < totalPages.value - 1) {
+    currentPage.value++;
+  }
+};
+
 </script>
+
+// ======================================= //
 
 <style scoped>
 main {
