@@ -9,6 +9,8 @@ import Peta from "./components/peta.vue";
 import Footer from "./components/footer.vue";
 </script>
 
+// ======================================= //
+
 <template>
   <div>
     <Header />
@@ -22,4 +24,3 @@ import Footer from "./components/footer.vue";
   </div>
 </template>
 
-// ======================================= //
