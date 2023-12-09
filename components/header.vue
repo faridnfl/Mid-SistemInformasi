@@ -37,7 +37,7 @@
           :key="index"
           class="relative group mr-5"
         >
-          <p @click="toggleDropdown(index)" class="cursor-pointer hover:bg-blue-800">
+          <p @click="toggleDropdown(index)" class="cursor-pointer hover:text-gray-500">
             {{ menu.label }}
           </p>
           <div
