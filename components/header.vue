@@ -37,7 +37,7 @@
           :key="index"
           class="relative group mr-5"
         >
-          <p @click="toggleDropdown(index)" class="cursor-pointer">
+          <p @click="toggleDropdown(index)" class="cursor-pointer hover:bg-blue-800">
             {{ menu.label }}
           </p>
           <div
@@ -49,7 +49,7 @@
               v-for="(submenu, subIndex) in menu.submenus"
               :key="subIndex"
               href="#"
-              class="block py-2"
+              class="block py-2 hover:bg-blue-800"
               >{{ submenu }}</a
             >
           </div>
@@ -109,7 +109,7 @@ const menus = ref([
     ],
   },
   {
-    label: "MAHASISWAAN",
+    label: "KEMAHASISWAAN",
     submenus: [
       "UPT ASRAMA (RAMTEK)",
       "PENGEMBANGAN KARAKTER MAHASISWA",
@@ -129,7 +129,10 @@ const menus = ref([
   },
   {
     label: "KEMITRAAN",
-    submenus: ["KERJASAMA DALAM NEGERI", "KERJASAMA LUAR NEGERI"],
+    submenus: [
+      "KERJASAMA DALAM NEGERI", 
+      "KERJASAMA LUAR NEGERI"
+    ],
   },
   {
     label: "GPM-PR",
