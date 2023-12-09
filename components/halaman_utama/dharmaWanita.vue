@@ -31,12 +31,12 @@
       </div>
     </div>
     <div class="grid justify-items-end">
-      <button
+      <NuxtLink :to="{ name: 'utamadharmawanita'}"
         class="rounded-full py-[0.8rem] px-[2.5rem]"
         style="background-color: rgb(76, 89, 101); color: white"
       >
         SELENGKAPNYA
-      </button>
+      </NuxtLink>
     </div>
   </section>
 </template>
