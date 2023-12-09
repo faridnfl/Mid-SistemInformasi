@@ -12,15 +12,15 @@ import Footer from "../components/halaman_utama/footer.vue";
 
 <template>
   <div Style="background-color: #d3d3dd">
-    <Header />
-    <Hero />
-    <Sambutan />
-    <Galeri />
-    <DharmaWanita />
-    <Berita />
+    <Header/>
+    <Hero/>
+    <Sambutan/>
+    <Galeri/>
+    <DharmaWanita/>
+    <Berita/>
     <Informasi/>
-    <Peta />
-    <Footer />
+    <Peta/>
+    <Footer/>
   </div>
 </template>
 

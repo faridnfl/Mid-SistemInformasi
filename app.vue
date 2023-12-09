@@ -4,10 +4,8 @@ import Footer from "../components/halaman_utama/footer.vue";
 </script>
 
 <template>
-    <Header />
     <div>
-      <NuxtPage />
+      <NuxtPage/>
     </div>
-    <Footer />
 </template>
 
