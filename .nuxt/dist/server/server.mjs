@@ -1,1 +1,1 @@
-export { default } from "file:///D:/Kuliah/Semester%205/Tugas/Sistem%20Informasi/Mid-SistemInformasi/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///D:/Kuliah/Semester%205/Tugas/Sistem%20Informasi/Mid-SistemInformasi-branch_ramma/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "D:/Kuliah/Semester 5/Tugas/Sistem Informasi/Mid-SistemInformasi/node_modules/nuxt/dist/app/entry.js": {
+  "D:/Kuliah/Semester 5/Tugas/Sistem Informasi/Mid-SistemInformasi-branch_ramma/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "D:/Kuliah/Semester 5/Tugas/Sistem Informasi/Mid-SistemInformasi/node_modules/nuxt/dist/app/entry.js"
+    "file": "D:/Kuliah/Semester 5/Tugas/Sistem Informasi/Mid-SistemInformasi-branch_ramma/node_modules/nuxt/dist/app/entry.js"
   }
 }
