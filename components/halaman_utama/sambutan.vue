@@ -1,5 +1,5 @@
 <template>
-    <div class="sambutan flex pt-20 pb-20 mb-8" style="background-color: rgb(26, 46, 107); min-height: 650px">
+    <div class="sambutan flex pt-20 pb-20 mb-2" style="background-color: rgb(26, 46, 107); min-height: 650px">
       <div class="flex mx-auto" style="width: 1270px">
         <div class="foto flex" style="width: 550px">
           <img src="/dekan.png" alt="Dekan FT-UH" class="drop-shadow-2xl rounded-3xl flex max-w-full h-full"

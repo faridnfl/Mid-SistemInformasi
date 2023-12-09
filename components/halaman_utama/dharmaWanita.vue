@@ -1,11 +1,11 @@
 <template>
   <section
-    class="dharma-wanita warna justify-center px-52 pb-14"
+    class="dharma-wanita warna justify-center px-52 pb-10"
     style="background-color: rgb(26, 46, 107)"
   >
     <div class="content w-full flex justify-around">
       <h1
-        class="text-2xl pt-40 pb-16 text-center text-white"
+        class="text-2xl pt-20 pb-12 text-center text-white"
         style="font-size: 40px; font-family: Times New Roman Thin"
       >
         Dharma Wanita

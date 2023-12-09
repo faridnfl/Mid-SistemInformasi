@@ -1,7 +1,7 @@
 <template>
   <section class="map flex justify-center" Style="background-color: #d3d3dd">
     <div
-      class="mt-10 mb-20 content items-center justify-center max-w-screen-xl w-full rounded-b-xl"
+      class="mt-2 content items-center justify-center max-w-screen-xl w-full rounded-b-xl"
       style="height: 500px"
     >
       <iframe

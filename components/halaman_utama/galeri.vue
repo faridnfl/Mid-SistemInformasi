@@ -42,9 +42,9 @@ const nextPage = () => {
 };
 </script>
 
-<template>
+<template >
     <section class="galeri flex justify-center relative" style="height: 470px">
-      <div class="content offside max-w-screen-xl w-full bg-white border rounded-xl overflow-hidden" style="height: 550px">
+      <div class="content offside max-w-screen-xl w-full bg-white border rounded-xl overflow-hidden" style="height: 520px">
         <div class="pb-5">
           <h1 class="font-bold pt-5 text-center" style="font-family: Times New Roman Thin; font-size: 40px">Galeri</h1>
         </div>
