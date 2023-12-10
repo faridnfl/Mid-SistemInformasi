@@ -6,7 +6,7 @@ import Footer from "../components/halaman_utama/footer.vue";
 <template>
     <Header/>
     <div class="slug w-full text-white" style="height: 120px; margin-top: 130px; width: 100%;">
-        <p style="margin: 0px 0px 0px 210px; padding-top: 30px; font-size: 20px; font-family: Times New Roman Thin;">Berita > Nasional</p>
+        <p style="margin: 0px 0px 0px 210px; padding-top: 30px; font-size: 20px; font-family: Times New Roman Thin;">Akademik > Akreditasi</p>
     </div>
     <div  Style="background-color: #d3d3dd">
         <section class="flex justify-center relative" style="height: 700px">
