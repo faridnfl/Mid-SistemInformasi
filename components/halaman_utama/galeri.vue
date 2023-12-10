@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 
-const endpoint = "http://localhost:8055/items/Berita?filter={%22id%22:{%22_gte%22:1,%22_lte%22:4}}"
+const endpoint = "http://localhost:8055/items/Galeri"
 const galeriData = ref([]);
 
 const itemsPerPage = ref(3);
