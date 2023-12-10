@@ -1,11 +1,11 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 
-const endpoint1 = "http://localhost:8055/items/Berita?filter={%22id%22:{%22_gte%22:1,%22_lte%22:4}}"
+const endpoint2 = "http://localhost:8055/items/Berita"
 const beritaData = ref([]);
 
 async function getBerita() {
-  const api = await fetch(endpoint1)
+  const api = await fetch(endpoint2)
   const data = await api.json()
   console.log(data.data)
   beritaData.value = data.data;

@@ -13,8 +13,6 @@
     "strict": true,
     "noImplicitThis": true,
     "esModuleInterop": true,
-    "types": [],
-    "verbatimModuleSyntax": true,
     "allowJs": true,
     "noEmit": true,
     "resolveJsonModule": true,
@@ -63,7 +61,7 @@
         "../node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#vue-router": [
-        "./vue-router-stub"
+        "./vue-router"
       ],
       "#imports": [
         "./imports"
