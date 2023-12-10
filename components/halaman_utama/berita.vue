@@ -36,6 +36,11 @@ const getImageUrl = (imageName) => {
             </div>
           </div>
         </div>
+        <div class="mt-2 flex justify-center">
+          <button class="rounded-xl px-6 py-3 bg-gray-800 text-white">
+            <NuxtLink to="/profil/berita">SELENGKAPNYA</NuxtLink>
+          </button>
+        </div>
       </div>
     </section>
 </template>

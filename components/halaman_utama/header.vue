@@ -35,7 +35,7 @@
             <div class=" navbar relative group pt-1">
                 <a href="#" class="px-5 pt-1 hover:text-amber-600 group-hover:text">Profil</a>
                 <div class="text-left absolute hidden text-white group-hover:block w-max px-5 py-2 rounded shadow-lg fixed" style="background-color: rgb(31, 52, 115)">
-                    <ul class="py-2"><NuxtLink to="/">Berita</NuxtLink></ul>
+                    <ul class="py-2"><NuxtLink to="/profil/berita">Berita</NuxtLink></ul>
                     <ul class="py-2"><NuxtLink to="/profil/sejarah">Sejarah Singkat</NuxtLink></ul>
                     <ul class="py-2"><NuxtLink to="/profil/visimisi">Visi, Misi dan Sasaran</NuxtLink></ul>
                     <ul class="py-2"><NuxtLink to="/profil/manajemen">Manajemen</NuxtLink></ul>
