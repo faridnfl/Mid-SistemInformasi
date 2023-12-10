@@ -1,9 +1,11 @@
 
-import { updateAppConfig } from '#app'
-import { defuFn } from 'D:/Kuliah/Semester 5/Tugas/Sistem Informasi/Mid-SistemInformasi/node_modules/defu/dist/defu.mjs'
+import { updateAppConfig } from '#app/config'
+import { defuFn } from 'defu'
 
 const inlineConfig = {
-  "nuxt": {}
+  "nuxt": {
+    "buildId": "dev"
+  }
 }
 
 // Vite - webpack is handled directly in #app/config
