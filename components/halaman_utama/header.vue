@@ -26,11 +26,11 @@
     <div class = "container">
       <nav class="py-4 shadow-lg fixed left-0 w-full flex items-center" style="background-color: rgb(31, 52, 115);">
         <div class="flex ml-4">
-            <img class="w-full" src="/unhas_id.png" alt="logo" style="width: 450px;" />
+            <img class="w-full" src="/unhas.png" alt="logo" style="width: 450px;" />
         </div>
         <ul>
           <li class="text-white font-bold text-base text-center px-2 flex">
-            <a href="#" class="pl-2 pr-6 pt-1 hover:text-amber-600"><NuxtLink to="/">Beranda</NuxtLink></a>
+            <p href="#" class="pl-2 pr-6 pt-1 hover:text-amber-600"><NuxtLink to="/">Beranda</NuxtLink></p>
             <p class="text-2xl">|</p>
             <div class=" navbar relative group pt-1">
                 <a href="#" class="px-5 pt-1 hover:text-amber-600 group-hover:text">Profil</a>
@@ -42,7 +42,7 @@
                     <ul class="py-2"><NuxtLink to="/profil/struktur_organisasi">Struktur Organisasi</NuxtLink></ul>
                     <ul class="py-2"><NuxtLink to="/profil/master_plan">Master Plan</NuxtLink></ul>
                     <ul class="py-2"><NuxtLink to="/profil/peta_kampus">Peta Kampus</NuxtLink></ul>
-                    <ul class="py-2"><NuxtLink to="/profil/mediatekw">Mediatek</NuxtLink></ul>
+                    <ul class="py-2"><NuxtLink to="/profil/mediatek">Mediatek</NuxtLink></ul>
                 </div>
             </div>
             <p class="text-2xl">|</p>

@@ -18,6 +18,6 @@
 
 <style>
     .judul {
-        background-image: url("bg-judul.png");
+        background-image: url("/bg-judul.png");
     }
 </style>

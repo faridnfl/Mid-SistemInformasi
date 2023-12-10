@@ -15,7 +15,7 @@
             <p>+62 852-9999-9958</p>
             <p>teknik@unhas.ac.id</p>
           </div>
-          <img src="./unhas_id.png" alt="" />
+          <img src="/unhas.png" alt="" />
           <h2 class="mt-6">SITE STATISTICS</h2>
           <div class="my-6 text-gray-400 font-normal">
             <a href="">

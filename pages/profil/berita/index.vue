@@ -5,8 +5,12 @@ import Footer from "../components/halaman_utama/footer.vue";
 
 <template>
     <Header/>
-    <div class="slug w-full text-white" style="height: 120px; margin-top: 130px; width: 100%;">
-        <p style="margin: 0px 0px 0px 210px; padding-top: 30px; font-size: 20px; font-family: Times New Roman Thin;">Profil > Berita</p>
+    <div class="slug w-full text-white" style="height: 120px; margin-top: 130px; width: 100%; display: flex;">
+        <NuxtLink to="/profil/berita">
+            <img src="/home.png" alt="error" class="" style="margin: 0px 0px 0px 210px; padding-top: 28px; width: 30px; height: 60px;" />
+            <p style="margin: 0px 0px 0px 5px; padding-top: 30px; font-size: 20px; font-family: Times New Roman Thin;">Berita</p>
+        </NuxtLink>
+            <p style="margin: 0px 0px 0px 5px; padding-top: 30px; font-size: 20px; font-family: Times New Roman Thin;"> > nasional</p>
     </div>
     <div  Style="background-color: #d3d3dd">
         <section class="flex justify-center relative" style="height: 700px">
@@ -22,7 +26,7 @@ import Footer from "../components/halaman_utama/footer.vue";
 
 <style>
 .slug {
-    background-image: linear-gradient(#063c63d0, #063c63d0), url("Kampus.jpg");
+    background-image: linear-gradient(#063c63d0, #063c63d0), url("/kampus.jpg");
     background-position: center;
 }
 </style>
