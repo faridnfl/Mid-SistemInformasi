@@ -135,10 +135,10 @@
             <div class="relative group pt-1">
                 <a href="#" class="px-5 hover:text-amber-600 group-hover:text">Dharma Wanita</a>
                 <div class="text-left absolute hidden text-white group-hover:block w-max px-5 py-2 rounded shadow-lg fixed" style="background-color: rgb(31, 52, 115)">
-                    <ul class="py-2"><NuxtLink to="/cot/dharma_wanita/halaman_utama_dw">Halaman Utama Dharma Wanita</NuxtLink></ul>
-                    <ul class="py-2"><NuxtLink to="/cot/dharma_wanita/profil_dw">Profil Dharma Wanita</NuxtLink></ul>
-                    <ul class="py-2"><NuxtLink to="/cot/dharma_wanita/struktur_organisasi_dw">Struktur Organisasi Dharma Wanita</NuxtLink></ul>
-                    <ul class="py-2"><NuxtLink to="/cot/dharma_wanita/kegiatan_dw">Kegiatan Dharma Wanita</NuxtLink></ul>
+                    <ul class="py-2"><NuxtLink to="/dharma_wanita/halaman_utama_dw">Halaman Utama Dharma Wanita</NuxtLink></ul>
+                    <ul class="py-2"><NuxtLink to="/dharma_wanita/profil_dw">Profil Dharma Wanita</NuxtLink></ul>
+                    <ul class="py-2"><NuxtLink to="/dharma_wanita/struktur_organisasi_dw">Struktur Organisasi Dharma Wanita</NuxtLink></ul>
+                    <ul class="py-2"><NuxtLink to="/dharma_wanita/kegiatan_dw">Kegiatan Dharma Wanita</NuxtLink></ul>
                 </div>
             </div>
           </li>
